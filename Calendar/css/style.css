@@ -12,7 +12,19 @@ body{
     background-repeat: no-repeat;
     background-color: black;
 }
-.header{
-    
+#hed{
+    background-color: rgba(0,0,0,0.5);
+    height: 300px;
+padding-top: 2 px;
+ position: relative;
+   top:2px;
+  left: 2px;
+     //
+}
+.header h1{
+    text-align: center;
+    font-size: 72pt;
+    padding: 100px auto;
+    color: rgb(108,115,139);
     
 }
