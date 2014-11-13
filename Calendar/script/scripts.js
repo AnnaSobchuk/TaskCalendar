@@ -4,12 +4,14 @@
  * and open the template in the editor.
  */
 
-main.addEventListener("load",setScreenParam, false);
+//main.addEventListener("load",setScreenParam, false);
+//window.onresize=setScreenParam();
 function setScreenParam(){
   var width= document.body.clientWidth;
-
+//console.log("i'm working!");
  hed.style.width = width; 
-//taskboard.style.width= (width-270)+"px";;
+taskboard.style.width=(width-305)+"px";;
  // 
 }
 
+       //onload="setScreenParam()"
