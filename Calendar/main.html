@@ -21,6 +21,7 @@ and open the template in the editor.
             
             
         </div>
+        <div class="left">
         <div id="stuff">
             <div id="calendar">
               <table id="calendar2">
@@ -76,10 +77,16 @@ document.querySelector('#calendar2 thead tr:nth-child(1) td:nth-child(3)').oncli
                 
             </div>
             <div id="settngs">
-                <input type="submit" value="Add Task" name="addT" />
+                <input type="submit" value="Add task" name="AddT" id="button" />
+                <select name="Category">
+                    <option>Coding </option>
+                    <option>Homework</option>
+                    <option>Other</option>
+                </select>
                 
             </div>
             
         </div>
+            </div>
     </body>
 </html>

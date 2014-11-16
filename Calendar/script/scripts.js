@@ -7,10 +7,15 @@
 //main.addEventListener("load",setScreenParam, false);
 //window.onresize=setScreenParam();
 function setScreenParam(){
+    
+
   var width= document.body.clientWidth;
+  var today = new Date();
+ 
 //console.log("i'm working!");
  hed.style.width = width; 
-taskboard.style.width=(width-305)+"px";;
+taskboard.style.width=(width-305)+"px";
+date.innerText ="Today, "+today.getDate()+"."+(today.getMonth()+1)+"."+today.getFullYear();
  // 
 }
 

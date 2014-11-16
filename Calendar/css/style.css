@@ -41,19 +41,32 @@ width:500px;
 }
 
 #stuff{
-   float:right;
+
     height: 500px;
     width:300px;
     //background-color: cadetblue;
     
 }
-
+.left{
+       float:right;
+    height:500px;
+    width: 300px;
+   // background-color: aqua;
+}
 #calendar{
     background-color: rgba(177,196,222,0.7);
     
     
 }
 #settings{
-    padding-top: 5px;
-    
+   // float:right;
+    //padding-top: 5px;
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+}
+#button{
+    margin-top: 15px;
+    height: 30px;
+    width: 70px;
 }
