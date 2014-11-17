@@ -16,6 +16,7 @@ body{
     background-color: rgba(0,0,0,0.5);
     height: 300px;
 margin-top: -60px;
+
 //position: relative;
 //top:2px;
  //left: 2px;
@@ -28,13 +29,13 @@ margin-top: -60px;
     font-size: 72pt;
    
   padding-top: 100px;
-    color: rgb(108,115,139);
+    color: rgb(70, 130, 180);
     
 }
 
 #taskboard{
 height: 500px;
-background-color: rgba(205,205,205,0.8);
+background-color: rgba(205,205,205,0.9);
 margin-top: 5px;
 float: left;
 width:500px;
@@ -54,7 +55,7 @@ width:500px;
    // background-color: aqua;
 }
 #calendar{
-    background-color: rgba(177,196,222,0.7);
+    background-color: rgba(173, 216, 230,0.8);
     
     
 }
@@ -69,4 +70,13 @@ width:500px;
     margin-top: 15px;
     height: 30px;
     width: 70px;
+}
+
+.task{
+    background-color: darkseagreen;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    
 }

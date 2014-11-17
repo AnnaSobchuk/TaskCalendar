@@ -77,13 +77,15 @@ document.querySelector('#calendar2 thead tr:nth-child(1) td:nth-child(3)').oncli
                 
             </div>
             <div id="settngs">
-                <input type="submit" value="Add task" name="AddT" id="button" />
+                <input type="submit" value="Add task" name="AddT" id="button" onclick="AddTask()"/>
                 <select name="Category">
                     <option>Coding </option>
                     <option>Homework</option>
                     <option>Other</option>
                 </select>
-                
+
+                <textarea name="TaskDescr" rows="6" cols="30">
+                </textarea>
             </div>
             
         </div>

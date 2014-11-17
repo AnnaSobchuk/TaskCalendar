@@ -20,3 +20,11 @@ date.innerText ="Today, "+today.getDate()+"."+(today.getMonth()+1)+"."+today.get
 }
 
        //onload="setScreenParam()"
+       
+       function AddTask(){
+           var root=document.getElementById("taskboard");
+           var div=document.createElement('div');
+           root.appendChild(div);
+           div.className="task";
+           
+       }
