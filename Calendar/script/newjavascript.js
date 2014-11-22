@@ -3,55 +3,55 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-var months = ['january', 'february', ''];
-var days = ['su', 'mo','tu','we','th','fr','sa','su' ];
- var table;
-function CreateTableHeader(){
-    var date=new Date();
-    var root= document.getElementById('calendar');
-   table = document.createElement('table');
+var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+var days = ['su', 'mo', 'tu', 'we', 'th', 'fr', 'sa'];
+var table;
+//month name + weekdays names
+function CreateTableHeader() {
+    var date = new Date();
+    var root = document.getElementById('calendar');
+    table = document.createElement('table');
     var td;
     var tr;
     var Currentmonth = date.getMonth();
-    var year=date.getFullYear();
-    table.border='2';
+    var year = date.getFullYear();
+    table.border = '2';
     root.appendChild(table);
     tr = document.createElement('tr');
     table.appendChild(tr);
-    td= document.createElement('td');
-    td.innerHTML='<<'
+    td = document.createElement('td');
+    td.innerHTML = '<<';
     tr.appendChild(td);
-    td=document.createElement('td');
-    td.colspan='4';
-    td.innerHTML= months[Currentmonth+1]+''+year;
+    td = document.createElement('td');
+    td.colSpan = '5';
+    td.innerHTML = months[Currentmonth] + ' ' + year;
     tr.appendChild(td);
-    td=document.createElement('td');
+    td = document.createElement('td');
     tr.appendChild(td);
-    td.innerHTML='>>';
+    td.innerHTML = '>>';
     tr = document.createElement('tr');
     table.appendChild(tr);
-    for (var i=0;i< days.length;i++){
+    for (var i = 0; i < days.length; i++) {
         td = document.createElement('td');
-        td.innerHTML=days[i];
-        tr.appendChild(td);    
+        td.innerHTML = days[i];
+        tr.appendChild(td);
     }
-    
-}
 
-function CreateTableBody(){
-  CreateTableHeader();
+}
+//days numbers
+function CreateTableBody() {
+    CreateTableHeader();
     var tr;
     var td;
-    var col=6;
-    var row=6;
-    for (var i=0; i<col; i++){
+    var col = 7;//table columns
+    for (var i = 0; i < days.length; i++) {
         tr = document.createElement('tr');
         table.appendChild(tr);
-       //for (var j=0; j<col; col++){
-           td = document.createElement('td');
-           td.innerHTML=i;
-           tr.appendChild(td);
-       //}
+        for (var j = 0; j < col; j++) {
+            td = document.createElement('td');
+            td.innerHTML = i;
+            tr.appendChild(td);
+        }
     }
 }
    
