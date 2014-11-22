@@ -38,20 +38,40 @@ function CreateTableHeader() {
     }
 
 }
-//days numbers
+//get number of weekDay
+ function getDay(date) { //
+    var day = date.getDay();
+    if (day == 0) day = 7;
+    return day - 1;
+  }
 function CreateTableBody() {
     CreateTableHeader();
+    var d = new Date();
+    var date = new Date(d.getMonth(), d.getFullYear());
     var tr;
     var td;
-    var col = 7;//table columns
-    for (var i = 0; i < days.length; i++) {
-        tr = document.createElement('tr');
-        table.appendChild(tr);
-        for (var j = 0; j < col; j++) {
-            td = document.createElement('td');
-            td.innerHTML = i;
-            tr.appendChild(td);
-        }
-    }
+   tr=document.createElement('tr');
+    table.appendChild(tr);
+    
+ while(date.getMonth() === d.getMonth()){
+     td = document.createElement('td');
+     td.innerHTM = date.getDate();
+     tr.appendChild(td);
+     if(getDay(date) % 7 === 6){
+         tr=document.createElement('tr');
+         table.appendChild(tr);
+     }
+ }
+//    for (var i = 0; i < days.length; i++) {
+//        tr = document.createElement('tr');
+//        table.appendChild(tr);
+//        for (var j = 0; j < col; j++) {
+//            td = document.createElement('td');
+//            //td.innerHTML = date.;
+//            tr.appendChild(td);
+//        }
+//    }
 }
+
+
    
