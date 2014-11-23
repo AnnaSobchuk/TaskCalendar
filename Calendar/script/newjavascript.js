@@ -8,11 +8,14 @@ var days = ['su', 'mo', 'tu', 'we', 'th', 'fr', 'sa'];
 var table;
 //month name + weekdays names
 function CreateTableHeader() {
+
     var date = new Date();
-    var root = document.getElementById('calendar');
+    root = document.getElementById('calendar');
     table = document.createElement('table');
     var td;
     var tr;
+    var opt;
+    var sel;
     var Currentmonth = date.getMonth();
     var year = date.getFullYear();
     table.border = '2';
@@ -20,15 +23,26 @@ function CreateTableHeader() {
     tr = document.createElement('tr');
     table.appendChild(tr);
     td = document.createElement('td');
-    td.innerHTML = '<<';
+    td.colSpan = '4';
+    sel = document.createElement('select');
+    sel.id = 'monthsSel';
+    sel.onchange = SelectionChange;
+    td.appendChild(sel);
+    for (var i = 0; i < months.length; i++) {
+        opt = document.createElement('option');
+        opt.innerHTML = months[i];
+        if (Currentmonth == i) {
+            opt.selected = 'selected';
+        }
+        sel.appendChild(opt);
+    }
+
     tr.appendChild(td);
     td = document.createElement('td');
-    td.colSpan = '5';
-    td.innerHTML = months[Currentmonth] + ' ' + year;
+    td.colSpan = '3';
+    td.innerHTML = year;
     tr.appendChild(td);
-    td = document.createElement('td');
-    tr.appendChild(td);
-    td.innerHTML = '>>';
+
     tr = document.createElement('tr');
     table.appendChild(tr);
     for (var i = 0; i < days.length; i++) {
@@ -38,40 +52,54 @@ function CreateTableHeader() {
     }
 
 }
-//get number of weekDay
- function getDay(date) { //
-    var day = date.getDay();
-    if (day == 0) day = 7;
-    return day - 1;
-  }
+
 function CreateTableBody() {
     CreateTableHeader();
     var d = new Date();
-    var date = new Date(d.getMonth(), d.getFullYear());
+    var date = new Date(d.getMonth(), d.getFullYear(), 0);
     var tr;
     var td;
-   tr=document.createElement('tr');
+
+    var day = date.getDay();
+    if (day === 0)
+        day = 7;
+    tr = document.createElement('tr');
     table.appendChild(tr);
-    
- while(date.getMonth() === d.getMonth()){
-     td = document.createElement('td');
-     td.innerHTM = date.getDate();
-     tr.appendChild(td);
-     if(getDay(date) % 7 === 6){
-         tr=document.createElement('tr');
-         table.appendChild(tr);
-     }
- }
-//    for (var i = 0; i < days.length; i++) {
-//        tr = document.createElement('tr');
-//        table.appendChild(tr);
-//        for (var j = 0; j < col; j++) {
-//            td = document.createElement('td');
-//            //td.innerHTML = date.;
-//            tr.appendChild(td);
-//        }
-//    }
+    var i = 1;
+    var j = 1;
+    while (i > 0) {
+
+        if (i === 47) {
+            break;
+        }
+        if (i >= day) {
+            if (j === date.getDate()){
+                break;
+            }
+            td = document.createElement('td');
+            td.innerHTML = j;
+            tr.appendChild(td);
+
+            if (i % 7 === 0) {
+                tr = document.createElement('tr');
+                table.appendChild(tr);
+            }
+            j++;
+        }
+        else {
+            td = document.createElement('td');
+            td.innerHTML = '';
+            tr.appendChild(td);
+        }
+        i++;
+
+    }
+
 }
 
+function SelectionChange(){
+    var selIndex=monthsSel.selectedIndex;
+    console.log('selected index N'+selIndex);
+    
+}
 
-   
