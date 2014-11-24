@@ -11,7 +11,9 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <link rel="stylesheet" type="text/css" href="css/calendar.css"/>
-        <script type="text/javascript" src="script/scripts.js"></script>
+     <!--  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>-->
+       <script type="text/javascript" src="script/scripts.js"></script> 
+       <script type="text/javascript" src="script/newjavascript.js"></script>
     </head>
     <body id="main" onload="setScreenParam()" onresize="setScreenParam()">
         <div class="header" id = "hed"> 
@@ -23,58 +25,8 @@ and open the template in the editor.
         </div>
         <div class="left">
         <div id="stuff">
-            <div id="calendar">
-              <table id="calendar2">
-  <thead>
-    <tr><td>Л<td colspan="5"><td>Ы
-    <tr><td>ѕн<td>¬т<td>—р<td>„т<td>ѕт<td>—б<td>¬с
-  <tbody>
-</table>
-
-<script>
-function Calendar2(id, year, month) {
-var Dlast = new Date(year,month+1,0).getDate(),
-    D = new Date(year,month,Dlast),
-    DNlast = new Date(D.getFullYear(),D.getMonth(),Dlast).getDay(),
-    DNfirst = new Date(D.getFullYear(),D.getMonth(),1).getDay(),
-    calendar = '<tr>',
-    month=["январь","‘евраль","ћарт","јпрель","ћай","»юнь","»юль","јвгуст","—ент€брь","ќкт€брь","Ќо€брь","ƒекабрь"];
-if (DNfirst != 0) {
-  for(var  i = 1; i < DNfirst; i++) calendar += '<td>';
-}else{
-  for(var  i = 0; i < 6; i++) calendar += '<td>';
-}
-for(var  i = 1; i <= Dlast; i++) {
-  if (i == new Date().getDate() && D.getFullYear() == new Date().getFullYear() && D.getMonth() == new Date().getMonth()) {
-    calendar += '<td class="today">' + i;
-  }else{
-    calendar += '<td>' + i;
-  }
-  if (new Date(D.getFullYear(),D.getMonth(),i).getDay() == 0) {
-    calendar += '<tr>';
-  }
-}
-for(var  i = DNlast; i < 7; i++) calendar += '<td>&nbsp;';
-document.querySelector('#'+id+' tbody').innerHTML = calendar;
-document.querySelector('#'+id+' thead td:nth-child(2)').innerHTML = month[D.getMonth()] +' '+ D.getFullYear();
-document.querySelector('#'+id+' thead td:nth-child(2)').dataset.month = D.getMonth();
-document.querySelector('#'+id+' thead td:nth-child(2)').dataset.year = D.getFullYear();
-if (document.querySelectorAll('#'+id+' tbody tr').length < 6) {  // чтобы при перелистывании мес€цев не "подпрыгивала" вс€ страница, добавл€етс€ р€д пустых клеток. »тог: всегда 6 строк дл€ цифр
-    document.querySelector('#'+id+' tbody').innerHTML += '<tr><td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;';
-}
-}
-Calendar2("calendar2", new Date().getFullYear(), new Date().getMonth());
-// переключатель минус мес€ц
-document.querySelector('#calendar2 thead tr:nth-child(1) td:nth-child(1)').onclick = function() {
-  Calendar2("calendar2", document.querySelector('#calendar2 thead td:nth-child(2)').dataset.year, parseFloat(document.querySelector('#calendar2 thead td:nth-child(2)').dataset.month)-1);
-}
-// переключатель плюс мес€ц
-document.querySelector('#calendar2 thead tr:nth-child(1) td:nth-child(3)').onclick = function() {
-  Calendar2("calendar2", document.querySelector('#calendar2 thead td:nth-child(2)').dataset.year, parseFloat(document.querySelector('#calendar2 thead td:nth-child(2)').dataset.month)+1);
-}
-</script>
-
-                
+            <div id="calendarContainer" >
+                              
             </div>
             <div id="settngs">
                 <input type="submit" value="Add task" name="AddT" id="button" onclick="AddTask()"/>

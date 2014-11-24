@@ -6,25 +6,22 @@
 
 //main.addEventListener("load",setScreenParam, false);
 //window.onresize=setScreenParam();
-function setScreenParam(){
-    
-
-  var width= document.body.clientWidth;
-  var today = new Date();
- 
-//console.log("i'm working!");
- hed.style.width = width; 
-taskboard.style.width=(width-305)+"px";
-date.innerText ="Today, "+today.getDate()+"."+(today.getMonth()+1)+"."+today.getFullYear();
- // 
+function setScreenParam() {
+   
+    var width = document.body.clientWidth;
+    var today = new Date();
+    hed.style.width = width; 
+    //calendarBtn.onclick=
+    CreateTableBody(today.getMonth(), today.getFullYear());
+    taskboard.style.width = (width - 310) + 'px';
+    date.innerText = 'Today, ' + today.getDate() + '.' + (today.getMonth() + 1) + '.' + today.getFullYear();
+   
 }
 
-       //onload="setScreenParam()"
-       
-       function AddTask(){
-           var root=document.getElementById("taskboard");
-           var div=document.createElement('div');
-           root.appendChild(div);
-           div.className="task";
-           
-       }
+function AddTask() {
+    var root = document.getElementById('taskboard');
+    var div = document.createElement('div');
+    root.appendChild(div);
+    div.className = 'task';
+
+}
