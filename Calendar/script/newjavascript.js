@@ -6,7 +6,7 @@
 var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 var days = ['su', 'mo', 'tu', 'we', 'th', 'fr', 'sa'];
 var table;
-
+var div;
 //add month name + weekdays names
 function CreateTableHeader(month, year) {
     var root = document.getElementById('calendarContainer');
@@ -88,7 +88,7 @@ function CreateTableBody(month, year) {
             }
 
             td.id = 'day' + j;
-            console.log(td.id);
+            td.className = 'mDay';
             td.innerHTML = j;
             tr.appendChild(td);
             if (i % 7 === 6) {

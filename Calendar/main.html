@@ -11,36 +11,50 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <link rel="stylesheet" type="text/css" href="css/calendar.css"/>
-     <!--  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>-->
-       <script type="text/javascript" src="script/scripts.js"></script> 
-       <script type="text/javascript" src="script/newjavascript.js"></script>
+        <!--  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>-->
+        <script type="text/javascript" src="script/scripts.js"></script> 
+        <script type="text/javascript" src="script/newjavascript.js"></script>
     </head>
-    <body id="main" onload="setScreenParam()" onresize="setScreenParam()">
+    <body id="main" onload="SetScreenParam()" onresize="SetScreenParam()">
         <div class="header" id = "hed"> 
             <h1 id = "date"> Today, *Date*</h1>
         </div>
         <div id="taskboard" >
-            
-            
+
+
         </div>
         <div class="left">
-        <div id="stuff">
-            <div id="calendarContainer" >
-                              
-            </div>
-            <div id="settngs">
-                <input type="submit" value="Add task" name="AddT" id="button" onclick = "AddTask(taskDescr.text)" />
-                <select name="Category">
-                    <option>Coding </option>
-                    <option>Homework</option>
-                    <option>Other</option>
-                </select>
+            <div id="stuff">
+                <div id="calendarContainer" >
 
-                <textarea name="TaskDescr" rows="6" cols="30" id="taskDescr">
-                </textarea>
+                </div>
+                <div class="border"> </div>
+                <div id="settngs">
+                    <textarea name="TaskDescr" rows="6" cols="30" id="taskDescr">
+                    </textarea> 
+                    <select name="Category" id="cat">
+                        <option>Coding </option>
+                        <option>Homework</option>
+                        <option>Other</option>
+                    </select>
+
+
+                </div>
+                <div class="border"></div>
+                <div>
+                    <span> Task begins: </span>
+                    <input type="text" name="begDay" id="dayBegin" value="day" size="2" />
+                    <input type="text" name="begMonth" value="month" size="2" />
+                    <input type="text" name="begYear" value="year" size="2" />
+                    <div class="border"></div>
+                    <span> Task ends: </span>
+                    <input type="text" name="endDay" id="dayEnd" value="day" size="2" />
+                    <input type="text" name="endMonth" value="month" size="2" />
+                    <input type="text" name="endYear" value="year" size="2" />
+                </div> 
+                <div class="border"></div>
+                <div id="button">Add Task</div>
             </div>
-            
         </div>
-            </div>
     </body>
 </html>
