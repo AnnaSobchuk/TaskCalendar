@@ -18,7 +18,7 @@ function CreateTableHeader(month, year) {
     var tr;
     var opt;
     var sel;
-    // table.border = '2';
+   // table.border = '2';
     table.className = 'calendar';
     root.appendChild(table);
     tr = document.createElement('tr');
@@ -56,6 +56,7 @@ function CreateTableHeader(month, year) {
 function CreateTableBody(month, year) {
     var today = new Date();
     var date = new Date();
+    var tmpDay;
     var tr;
     var td;
     date.setMonth(month, 1);
@@ -76,14 +77,21 @@ function CreateTableBody(month, year) {
         }
         if (i >= day) {
             td = document.createElement('td');
+            tmpDay = new Date(year, month, j).getDay();
+            if (tmpDay === 6 || tmpDay === 0) {
+                td.style.color = '#29A2AE';
+            }
             if (j === today.getDate()) {
                 td.style.color = '#868880';
                 td.style.border = '2px solid #868880';
                 //td.style.borderColor = '';
             }
+
+            td.id = "day" + j;
             td.innerHTML = j;
             tr.appendChild(td);
             if (i % 7 === 6) {
+
                 tr = document.createElement('tr');
                 table.appendChild(tr);
             }

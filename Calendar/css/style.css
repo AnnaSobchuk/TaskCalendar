@@ -9,83 +9,85 @@ and open the template in the editor.
 http://www.lavishbootstrap.com/?utf8=%E2%9C%93&image_url=http%3A%2F%2Fcdn.desktopwallpapers4.me%2Fwallpapers%2Fartistic%2F1280x800%2F1%2F6346-colorful-figures-1280x800-artistic-wallpaper.jpg&commit=Go+Lavish
 color sheme 
 */
-body{
-
-    background-repeat:no-repeat;
+body {
+    background-repeat: no-repeat;
     background-image: url(../images/58985-30987.jpg);
     background-color: #F8EEC9;
 }
-#hed{
+
+#hed {
     // background-color: #868880;
     height: 200px;
     margin-top: -60px;
-
 }
-#date{
 
-
+#date {
     text-align: center;
     font-size: 72pt;
-
     padding-top: 50px;
     color: #D1654A;
-
 }
 
-#taskboard{
+#taskboard {
     height: 700px;
     //background-color: #868880;
-    border: 3px solid #868880 ;
-    //border-color: 
-    margin-top: 5px;
+    border: 3px solid #868880;
+    //border-color: margin-top: 5px;
     float: left;
-    width:500px;
-
+    width: 500px;
 }
 
-#stuff{
-
+#stuff {
     height: 500px;
-    width:300px;
+    width: 300px;
     //background-color: cadetblue;
-
 }
-.left{
-    float:right;
-    height:500px;
+
+.left {
+    float: right;
+    height: 500px;
     width: 300px;
     // background-color: aqua;
 }
-#calendarContainer, #calendarBtn{
+
+#calendarContainer, #calendarBtn {
     background-color: #EFDFAE;
     height: 200px;
     width: 300px;
     color: #D1654A;
 }
-#settings{
+
+#settings {
     // float:right;
     //padding-top: 5px;
     height: 300px;
     width: 300px;
     background-color: aquamarine;
 }
-#button{
+
+#button {
+    float:left;
     margin-top: 15px;
     height: 30px;
     width: 70px;
 }
 
-.task{
+.task {
     background-color: darkseagreen;
     height: 200px;
     width: 200px;
     display: inline-block;
     margin: 10px 10px 10px 10px;
-
 }
-.calendar{
+
+.calendar {
     height: 200px;
     width: 300px;
+    text-align:center;
+}
 
-
+#monthsSel {
+    background-color: #EFDFAE;
+    height: 25px;
+    width: 100px;
 }
