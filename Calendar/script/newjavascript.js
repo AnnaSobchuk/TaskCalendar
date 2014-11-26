@@ -18,7 +18,7 @@ function CreateTableHeader(month, year) {
     var tr;
     var opt;
     var sel;
-   // table.border = '2';
+    // table.border = '2';
     table.className = 'calendar';
     root.appendChild(table);
     tr = document.createElement('tr');
@@ -87,7 +87,8 @@ function CreateTableBody(month, year) {
                 //td.style.borderColor = '';
             }
 
-            td.id = "day" + j;
+            td.id = 'day' + j;
+            console.log(td.id);
             td.innerHTML = j;
             tr.appendChild(td);
             if (i % 7 === 6) {
@@ -106,6 +107,7 @@ function CreateTableBody(month, year) {
         i++;
 
     }
+
 
 }
 

@@ -29,14 +29,14 @@ and open the template in the editor.
                               
             </div>
             <div id="settngs">
-                <input type="submit" value="Add task" name="AddT" id="button" onclick="AddTask()"/>
+                <input type="submit" value="Add task" name="AddT" id="button" onclick = "AddTask(taskDescr.text)" />
                 <select name="Category">
                     <option>Coding </option>
                     <option>Homework</option>
                     <option>Other</option>
                 </select>
 
-                <textarea name="TaskDescr" rows="6" cols="30">
+                <textarea name="TaskDescr" rows="6" cols="30" id="taskDescr">
                 </textarea>
             </div>
             
