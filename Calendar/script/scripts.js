@@ -15,18 +15,27 @@ function SetScreenParam() {
     CreateTableBody(today.getMonth(), today.getFullYear());
     taskboard.style.width = (width - 310) + 'px';
     date.innerText = 'Today, ' + today.getDate() + '.' + (today.getMonth() + 1) + '.' + today.getFullYear();
-    button.addEventListener ('click',AddTask,false);
+    button.addEventListener('click', AddTask, false);
+    //dayBegin.addEventListener('onfocus', ClearData(this), false);
 }
 
+//
+function ClearData(obj) {
+  obj.value = ' ';
+
+}
 
 function AddTask() {
     var root = document.getElementById('taskboard');
     var begin = parseInt(document.getElementById('dayBegin').value);
     var end = parseInt(document.getElementById('dayEnd').value);
     var id;
+    var closeBut;
     var div = document.createElement('div');
     div.className = 'task';
     div.innerHTML = 'Task: ' + taskDescr.value;
+    closeBut = document.createElement('div');
+   // closeBut.
     for (var i=begin; i<=end;i++){
         id = document.getElementById('day' + i);
        id.style.backgroundColor='#CFB04C';
@@ -34,12 +43,3 @@ function AddTask() {
     root.appendChild(div);
 }
 
-
-//function addTestTask(day) {
-//    var id;
-//    for (var i = 20; i < day; i++) {
-//        id = 'day' + i;
-//        AddTask(id, "не працювати до пізна!!!");
-//
-//    }
-//}
