@@ -30,11 +30,10 @@ function AddTask() {
     var begin = parseInt(document.getElementById('dayBegin').value);
     var end = parseInt(document.getElementById('dayEnd').value);
     var id;
-    var closeBut;
     var div = document.createElement('div');
     div.className = 'task';
-    div.innerHTML = 'Task: ' + taskDescr.value;
-    closeBut = document.createElement('div');
+    //div.innerHTML = 'Task: ' + taskDescr.value;
+    taskInner(div);
    // closeBut.
     for (var i=begin; i<=end;i++){
         id = document.getElementById('day' + i);
@@ -43,3 +42,16 @@ function AddTask() {
     root.appendChild(div);
 }
 
+
+function taskInner( parent){
+ var closeBut;
+ var childDiv;
+ childDiv = document.createElement('div');
+
+ parent.appendChild(childDiv);
+ closeBut = document.createElement('img');
+ closeBut.src = 'images\\Close_delete_remove_exit_cross_x_button_error.png';
+ closeBut.alt = 'closeB';
+ closeBut.className = 'closeTask';
+ childDiv.appendChild(closeBut);
+}
