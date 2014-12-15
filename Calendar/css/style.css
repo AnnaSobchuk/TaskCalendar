@@ -66,18 +66,13 @@ body {
     margin: 5px auto;
 }
 
-#button {
-    float: left;
-    margin-top: 15px;
-    height: 30px;
-    width: 70px;
-}
+
 
 .task {
-    //background-color: #CFB04C;
+   background-color: #CFB04C;
     height: 300px;
-    width: 400px;
-    display: inline-block;
+    //width: 600px;
+    // display: inline-block;
     margin: 10px 10px 10px 10px;
 }
 
@@ -104,12 +99,12 @@ body {
 
 #button {
     background-color: #D1654A;
-    width: 90px;
-    height: 30px;
+    //width: 90px;
+    height: 40px;
     text-align: center;
     padding-top: 10px;
     color: #F8EEC9;
-    border-radius: 10px;
+    //border-radius: 10px;
 }
 
     #button:hover {
@@ -130,16 +125,24 @@ span {
 }
 
 .closeButton {
-    height: 50px;
+    height: 40px;
+    //display:inline-block;
+    margin-top: -40px;
     float: right;
-    border: 2px solid black;
+    // border: 2px solid black;
 }
 
-.taskHeader {
+.catContainer {
+    height: 40px;
+    width: 400px;
+    display: inline-block;
+    background-color: bisque;
+    // float: left;
+}
+.taskHeader{
+    height: 40px;
+    background-color: #D1654A;
     border: 2px solid black;
-    height: 50px;
-    width: 300px;
-    float: left;
 }
 
 #catOne {
@@ -154,11 +157,41 @@ span {
     background-color: #FFD700;
 }
 
-#categorySelector {
+.categorySelector {
     background-color: #D1654A;
-    font-family:Batang;
-    width: 300px;
-    height: 50px;
+    font-family: Batang;
+    width: 400px;
+    height: 40px;
     font-size: 20pt;
     padding-left: 50px;
+}
+
+#taskBody {
+    height: 200px;
+}
+
+#taskText {
+    height: 200px;
+    display: inline-block;
+    overflow: scroll;
+}
+
+#taskDates {
+    float: right;
+    height: 200px;
+    width: 375px;
+}
+textarea {
+    resize:none;
+    overflow:auto;
+}
+#acceptButt{
+    height: 50px;
+    background-color: brown;
+}
+.dateSection{
+    height:98px;
+    border: 2px solid black;
+
+
 }
