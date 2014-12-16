@@ -31,7 +31,7 @@ body {
 #taskboard {
     height: 700px;
     //background-color: #868880;
-    border: 3px solid #868880;
+   // border: 3px solid #868880;
     //border-color: margin-top: 5px;
     float: left;
     width: 500px;
@@ -69,11 +69,12 @@ body {
 
 
 .task {
-   background-color: #CFB04C;
+   //background-color: #CFB04C;
     height: 300px;
     //width: 600px;
     // display: inline-block;
     margin: 10px 10px 10px 10px;
+    margin: 5px auto;
 }
 
 .calendar {
@@ -93,18 +94,20 @@ body {
 }
 
 .border {
-    height: 10px;
-    width: 300px;
-}
+    height: 40px;
+   
+} 
 
 #button {
     background-color: #D1654A;
     //width: 90px;
     height: 40px;
     text-align: center;
+    font-size:20pt;
     padding-top: 10px;
     color: #F8EEC9;
-    //border-radius: 10px;
+    border-radius: 10px;
+    margin:5px auto;
 }
 
     #button:hover {
@@ -127,7 +130,7 @@ span {
 .closeButton {
     height: 40px;
     //display:inline-block;
-    margin-top: -40px;
+    //margin-top: -40px;
     float: right;
     // border: 2px solid black;
 }
@@ -136,14 +139,10 @@ span {
     height: 40px;
     width: 400px;
     display: inline-block;
-    background-color: bisque;
+    //background-color: bisque;
     // float: left;
 }
-.taskHeader{
-    height: 40px;
-    background-color: #D1654A;
-    border: 2px solid black;
-}
+
 
 #catOne {
     background-color: #8A2BE2;
@@ -157,7 +156,7 @@ span {
     background-color: #FFD700;
 }
 
-.categorySelector {
+#categorySelector {
     background-color: #D1654A;
     font-family: Batang;
     width: 400px;
@@ -186,8 +185,8 @@ textarea {
     overflow:auto;
 }
 #acceptButt{
-    height: 50px;
-    background-color: brown;
+    height: 56px;
+   
 }
 .dateSection{
     height:98px;
