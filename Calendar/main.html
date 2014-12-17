@@ -19,6 +19,11 @@ and open the template in the editor.
     </head>
 <body id="main" onload="SetScreenParam()" onresize="SetScreenParam()">
     <div class=" header" id="hed">
+        <select name="design" id="designPicker">
+            <option> </option>
+            <option>color</option>
+            <option>image</option>
+        </select>
         <h1 id="date"> Today, *Date*</h1>
     </div>
     <div id="taskboard">
@@ -38,10 +43,7 @@ and open the template in the editor.
             <div class="border"></div>
             <div>
                
-                <span> Task ends: </span>
-                <input type="text" name="endDay" id="dayEnd" value="day" size="2" onfocus="ClearData(this)" />
-                <input type="text" name="endMonth" id="monthEnd" value="month" size="2" onfocus="ClearData(this)" />
-                <input type="text" name="endYear" id="yearEnd" value="year" size="2" onfocus="ClearData(this)" />
+                
             </div>
             <div class="border"></div>
             <!--<div id="button">Add Task</div>-->

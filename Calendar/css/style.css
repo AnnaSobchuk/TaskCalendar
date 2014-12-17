@@ -16,7 +16,6 @@ body {
 }
 
 #hed {
-    // background-color: #868880;
     height: 200px;
     margin-top: -60px;
 }
@@ -24,8 +23,13 @@ body {
 #date {
     text-align: center;
     font-size: 72pt;
-    padding-top: 50px;
+    padding-top: 15pt;
+    
     color: #D1654A;
+}
+#designPicker{
+    float:right;
+    background-color: #F8EEC9;
 }
 
 #taskboard {
@@ -70,7 +74,7 @@ body {
 
 .task {
     //background-color: #CFB04C;
-    height: 300px;
+    height: 280px;
     //width: 600px;
     // display: inline-block;
     margin: 10px 10px 10px 10px;
@@ -152,7 +156,7 @@ span {
 #categorySelector {
     background-color: #D1654A;
     font-family: Batang;
-    width: 400px;
+    width: 300px;
     height: 40px;
     font-size: 20pt;
     padding-left: 50px;
@@ -177,28 +181,29 @@ textarea {
     resize:none;
     overflow:auto;
 }
-.acceptButt{
+.acceptCloseButt{
     height: 36px;
     width: 80px;
+    background-color: #EFDFAE;
+    color:#29A2AE;
     //font-size:20pt;
     text-align:center;
-    border-radius: 10px;
+    border-radius: 7px;
     //border: 2px solid black;
 }
-.acceptButt:hover{
+.acceptCloseButt:hover{
     background-color: #D1654A;
 
 }
-.closeButton {
-    height: 36px;
-    width: 80px;
-    text-align:center;
-    border-radius: 10px;
-}
+
 
 .dateSection{
     height:98px;
     // border: 2px solid black;
     //padding-top: -35px;
 
+}
+.headContainer{
+    height: 40px;
+    background-color: #D1654A;
 }

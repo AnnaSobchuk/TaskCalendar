@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+var calendar=(function(){
 var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 var days = ['su', 'mo', 'tu', 'we', 'th', 'fr', 'sa'];
 var table;
-var div;
 //add month name + weekdays names
-function CreateTableHeader(month, year) {
+return{
+CreateTableHeader:function (month, year) {
     var root = document.getElementById('calendarContainer');
     if (root.firstElementChild === table) {
         root.removeChild(table);
@@ -50,10 +52,10 @@ function CreateTableHeader(month, year) {
         tr.appendChild(td);
     }
 
-}
+},
 
 //add monthDay numbers
-function CreateTableBody(month, year) {
+CreateTableBody:function (month, year) {
     var today = new Date();
     var date = new Date();
     var tmpDay;
@@ -66,7 +68,7 @@ function CreateTableBody(month, year) {
     console.log('day: ' + day);
     console.log('month: ' + month);
     console.log('days in month: ' + daysInMonth);
-    CreateTableHeader(month, year);
+   this.CreateTableHeader(month, year);
     tr = document.createElement('tr');
     table.appendChild(tr);
     var i = 0;
@@ -110,10 +112,12 @@ function CreateTableBody(month, year) {
 
 
 }
+}
+}());
 
 function SelectionChange() {
     var selIndex = monthsSel.selectedIndex;
     console.log('selected index: ' + selIndex);
-    CreateTableBody(selIndex, 2014);
+    calendar.CreateTableBody(selIndex, 2014);
 }
 
