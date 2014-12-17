@@ -85,10 +85,10 @@ var taskEventHandlers = (function () {
 
 
 var task = (function(){
-    
+    var index=0;
     return{
 taskHeader:function (parent) {
-    var closeBut, categoryContainer, categories;
+    var categoryContainer, categories;
     var headDiv;
     headDiv = document.createElement('div');
     headDiv.style.height = '40px';
@@ -120,11 +120,8 @@ taskHeader:function (parent) {
 
     categoryContainer.appendChild(categories);
     headDiv.appendChild(categoryContainer);
-    closeBut = document.createElement('img');
-    closeBut.src = 'images\\close_delete_remove_exit_cross_x_button_error.png';
-    closeBut.alt = 'closeB';
-    closeBut.className = 'closeButton';
-    headDiv.appendChild(closeBut);
+    
+   
     parent.appendChild(headDiv);
 },
 taskBody:function (parent) {
@@ -143,10 +140,12 @@ taskBody:function (parent) {
     begin.id = 'dateIn';
     begin.className = 'dateSection';
     insertBeginDataFields(begin);
+  
     dates.appendChild(begin);
     var end = document.createElement('div');
     end.className = 'dateSection';
-    dates.appendChild(end);
+    dates.appendChild(end);  
+    insertEndDataFields(end);
     taskDescr.appendChild(dates);
     var descrText = document.createElement('textarea');
     descrText.rows = 30;
@@ -156,9 +155,16 @@ taskBody:function (parent) {
     parent.appendChild(taskDescr);
 },
 taskFooter:function (parent) {
-    var acceptButton = document.createElement('div');
-    acceptButton.id = 'acceptButt';
+   var closeBut = document.createElement('submit');
+   closeBut.class = 'closeButton';
+   closeBut.type = 'submit';
+   closeButton.value = 'Decine';
+    var acceptButton = document.createElement('input');
+    acceptButton.class = 'acceptButt';
+    acceptButton.type = 'submit';
+    acceptButton.value = 'Accept';
     parent.appendChild(acceptButton);
+    parent.appendChild(closeBut);
 
 }
     }
@@ -182,11 +188,38 @@ function insertBeginDataFields(parent) {
     beginMonth.type = 'text';
     beginMonth.id = 'monthBegin';
     beginMonth.size = '2';
+    parent.appendChild(beginMonth);
     beginYear = document.createElement('input');
     beginYear.type = 'text';
     beginYear.id = 'yearBegin';
     beginYear.size = '2';
+    parent.appendChild(beginYear);
   
     
     
+}
+
+function insertEndDataFields(parent){
+        var endDay, endMonth, endYear;
+    var border = document.createElement('div');
+    border.className = 'border';
+    parent.appendChild(border);
+    var span = document.createElement('span');
+    span.textContent = 'Task ends: ';
+    parent.appendChild(span);
+    endDay = document.createElement('input');
+    endDay.type = 'text';
+    endDay.id = 'dayEnd';
+    endDay.size = '2';
+    parent.appendChild(endDay);
+    endMonth = document.createElement('input');
+    endMonth.type = 'text';
+    endMonth.id = 'monthEnd';
+    endMonth.size = '2';
+    parent.appendChild(endMonth);
+    endYear = document.createElement('input');
+    endYear.type = 'text';
+    endYear.id = 'yearEnd';
+    endYear.size = '2';
+    parent.appendChild(endYear);
 }

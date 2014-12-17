@@ -81,7 +81,7 @@ function CreateTableBody(month, year) {
             if (tmpDay === 6 || tmpDay === 0) {
                 td.style.color = '#29A2AE';
             }
-            if (j === today.getDate()) {
+            if (j === today.getDate()&&today.getMonth() === month) {
                 td.style.color = '#868880';
                 td.style.border = '2px solid #868880';
                 //td.style.borderColor = '';
