@@ -157,7 +157,7 @@ var task = (function () {
             var closeBut = document.createElement('input');
             closeBut.className = 'acceptCloseButt';
             closeBut.type = 'submit';
-            closeBut.value = 'Decine';
+            closeBut.value = 'Cancel';
             
             var acceptButton = document.createElement('input');
             acceptButton.className = 'acceptCloseButt';
