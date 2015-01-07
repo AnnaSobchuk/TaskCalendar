@@ -3,29 +3,9 @@
     ViewBag.Title = "My Todo List";
     
 }
-@functions{
-    public string GetAntiForgeryToken()
-    {
-        string cookieToken, formToken;
-        AntiForgery.GetTokens(null, out cookieToken, out formToken);
-        return cookieToken + ":" + formToken;                
-    }
-}
 
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
+@Html.Partial("NewView")
 
 
 
-
-
-
-   @section scripts {
-      
-        
-        @Scripts.Render("~/bundles/main")
-       
-    }

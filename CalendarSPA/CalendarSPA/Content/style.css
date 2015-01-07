@@ -17,14 +17,14 @@ body {
 
 #hed {
     height: 200px;
-    margin-top: -60px;
+    margin-top: -20px;
 }
 
 #date {
     text-align: center;
     font-size: 72pt;
     padding-top: 15pt;
-    
+   //margin-top: 30px;
     color: #D1654A;
 }
 #designPicker{
@@ -108,7 +108,7 @@ body {
     height: 40px;
     text-align: center;
     font-size:20pt;
-    padding-top: 10px;
+   // padding-top: 10px;
     color: #F8EEC9;
     border-radius: 10px;
     margin:5px auto;

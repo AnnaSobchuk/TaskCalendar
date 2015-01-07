@@ -1,0 +1,50 @@
+﻿
+.page-header{
+    height: 300px;
+    //background-color:#545C14;
+    color:#D2BD34;
+    margin:2px;
+
+
+}
+#season{
+height:300px;
+width:400px;
+display:inline-block;
+}
+.menu{
+    height:300px;
+   
+    float:right;
+}
+#top{
+     border:2px solid black;
+     height:230px;
+}
+#bottom{
+       border:2px solid black;
+       height: 70px
+
+}
+.btn-default{
+    height:70px;
+    width:150px;
+}
+#data{
+    margin-top: 50px;
+    text-align:center;
+    font-size:60pt;
+}
+#tasks{
+    float:left;
+    height:800px;
+   
+    border:2px solid black;
+}
+#floatCalendar{
+    float:right;
+    height:500px;
+    width:50px;
+    background-color:rgba(0,0,0,0.5);
+    border:2px solid black;
+}

@@ -1,0 +1,38 @@
+/*!
+ * jQuery UI CSS Framework 1.10.4
+ * http://jqueryui.com
+ *
+ * Copyright 2014 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/category/theming/
+ */
+@import url("base/core.css");
+
+/*@import url("jquery.ui.accordion.css");
+@import url("jquery.ui.autocomplete.css");
+@import url("jquery.ui.button.css");
+@import url("jquery.ui.datepicker.css");
+@import url("jquery.ui.dialog.css");
+@import url("jquery.ui.menu.css");
+@import url("jquery.ui.progressbar.css");
+@import url("jquery.ui.resizable.css");
+@import url("jquery.ui.selectable.css");
+@import url("jquery.ui.slider.css");
+@import url("jquery.ui.spinner.css");
+@import url("jquery.ui.tabs.css");
+@import url("jquery.ui.tooltip.css");*/
+@import url("base/accordion.css");
+@import url("base/autocomplete.css");
+@import url("base/button.css");
+@import url("base/datepicker.css");
+@import url("base/dialog.css");
+@import url("base/menu.css");
+@import url("base/progressbar.css");
+@import url("base/resizable.css");
+@import url("base/selectable.css");
+@import url("base/slider.css");
+@import url("base/spinner.css");
+@import url("base/tabs.css");
+@import url("base/tooltip.css");

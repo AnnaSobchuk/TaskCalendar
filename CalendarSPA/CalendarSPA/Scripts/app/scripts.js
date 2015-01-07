@@ -7,10 +7,7 @@
 //main.addEventListener("load",setScreenParam, false);
 //window.onresize=setScreenParam(); 
 //$(window).load(SetScreenParam);
-function changeWidth() {
-    var width = document.body.clientWidth;
-    taskboard.style.width = (width - 310) + 'px';
-}
+
 $(document).ready(function () {
     var width = document.body.clientWidth;
     var today = new Date();
@@ -22,6 +19,10 @@ $(document).ready(function () {
     $('#designPicker').change(changeView);
     $('#taskboard').append("<div id = 'button'> Add </div>");
     $('#button').click(taskEventHandlers.addTask);
+    $('#main').resize(function () {
+        var width = document.body.clientWidth;
+        taskboard.style.width = (width - 310) + 'px';
+    });
 }
 
     );
