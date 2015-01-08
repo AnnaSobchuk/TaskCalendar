@@ -10,8 +10,9 @@
 }
 #season{
 height:300px;
-width:400px;
+width:300px;
 display:inline-block;
+ //border:2px solid black;
 }
 .menu{
     height:300px;
@@ -20,17 +21,11 @@ display:inline-block;
 }
 #top{
      border:2px solid black;
-     height:230px;
+     height:300px;
+     float:left;
 }
-#bottom{
-       border:2px solid black;
-       height: 70px
 
-}
-.btn-default{
-    height:70px;
-    width:150px;
-}
+
 #data{
     margin-top: 50px;
     text-align:center;
@@ -48,4 +43,15 @@ display:inline-block;
     width:50px;
     background-color:rgba(0,0,0,0.5);
     border:2px solid black;
+}
+
+
+
+#leftB,
+#rightB{
+     height:300px;
+    float:left;
+}
+#navButt{
+    height:496px;
 }

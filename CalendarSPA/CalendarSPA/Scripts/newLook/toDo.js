@@ -1,5 +1,6 @@
 ﻿$(document).ready(function () {
-    var imgWidth = 405;
+    var imgWidth = 470 + $('.btn-lg').width() * 2;
+    console.log
     var width = ($(window).width() - imgWidth) + 'px';
     $('#top').css('width', width);
     $('#bottom').css('width', width);
