@@ -14,3 +14,11 @@ C:\Users\asobctc\Desktop\DAL\repository\repository\bin\Debug\repository.pdb
 C:\Users\asobctc\Desktop\DAL\repository\repository\bin\Debug\EntityFramework.dll
 C:\Users\asobctc\Desktop\DAL\repository\repository\bin\Debug\EntityFramework.xml
 C:\Users\asobctc\Desktop\DAL\repository\repository\obj\Debug\repository.csprojResolveAssemblyReference.cache
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\repository\repository\bin\Debug\repository.exe.config
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\repository\repository\bin\Debug\repository.exe
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\repository\repository\bin\Debug\repository.pdb
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\repository\repository\bin\Debug\EntityFramework.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\repository\repository\bin\Debug\EntityFramework.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\repository\repository\obj\Debug\repository.csprojResolveAssemblyReference.cache
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\repository\repository\obj\Debug\repository.exe
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\repository\repository\obj\Debug\repository.pdb

@@ -200,6 +200,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\tasksController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -324,6 +325,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\NewView.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\repository\repository\repository.csproj">
+      <Project>{31001071-99f4-4e9c-884d-ac890d1a6236}</Project>
+      <Name>repository</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

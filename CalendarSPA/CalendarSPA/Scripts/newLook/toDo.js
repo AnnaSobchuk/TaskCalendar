@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-    var imgWidth = 470 + $('.btn-lg').width() * 2;
+    var imgWidth = 370 + $('.btn-lg').width() * 2;
     console.log
     var width = ($(window).width() - imgWidth) + 'px';
     $('#top').css('width', width);
@@ -10,5 +10,45 @@
 
     $('#tasks').css('width', ($(window).width() - 50) + 'px');
     //$('#tasks').css('height', ($(window).height() - 300) + 'px');
-    $('#accordion').accordion();
+   
+    var flag = false;
+    $('#navButt').click(function () {
+       
+        if (flag === false) {
+            flag = true;
+            
+            $('#taskForm').switchClass('formHidden', 'formShow', 1000);
+          
+            $('#floatCalendar').css('width', '300');
+
+            $('#tasks').css('width', $('#tasks').width() - 250 + 'px');
+        }
+        else {
+            flag = false;
+            $('#taskForm').switchClass('formShow', 'formHidden', 1000);
+        
+            $('#floatCalendar').css('width', '50');
+
+            $('#tasks').css('width', $('#tasks').width() + 250 + 'px');
+        }
+    });
+    $('#dateFrom').datepicker({
+        showOtherMonths: true,
+        selectOtherMonths: true
+    });
+    $('#dateTo').datepicker({
+        showOtherMonths: true,
+        selectOtherMonths: true
+    });
+    $.getJSON('/api/tasks', function (tasksJsonPayLoad) {
+        $(tasksJsonPayLoad).each(function (i, item) {
+
+            $('#accordion').append('<h3>' + item.taskName + '</h3');
+            $('#accordion').append('<div><p> task Description </p></div>');
+        });
+        $('#accordion').accordion();
+    });
+
+
+
 });

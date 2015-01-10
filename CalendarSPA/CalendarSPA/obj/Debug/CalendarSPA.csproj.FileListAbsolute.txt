@@ -350,3 +350,5 @@ C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\zh-Hant
 C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.csprojResolveAssemblyReference.cache
 C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.dll
 C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.pdb
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\repository.exe
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\repository.pdb
