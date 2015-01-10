@@ -43,8 +43,8 @@
     $.getJSON('/api/tasks', function (tasksJsonPayLoad) {
         $(tasksJsonPayLoad).each(function (i, item) {
 
-            $('#accordion').append('<h3>' + item.taskName + '</h3');
-            $('#accordion').append('<div><p> task Description </p></div>');
+            $('#accordion').append('<h3>' + item.taskName +': ' +item.categoryID + '</h3');
+            $('#accordion').append('<div><p> Begin:'+ item.taskBegin+ 'End: ' + item.taskEnd + '</p></div>');
         });
         $('#accordion').accordion();
     });

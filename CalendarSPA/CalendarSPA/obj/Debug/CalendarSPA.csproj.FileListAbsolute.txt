@@ -352,3 +352,5 @@ C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\obj\Debug\C
 C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.pdb
 C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\repository.exe
 C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\repository.pdb
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\repository.exe
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\repository.pdb
