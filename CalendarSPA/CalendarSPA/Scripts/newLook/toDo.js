@@ -66,12 +66,15 @@ function deleteTsk(id) {
     console.log(id);
     $.ajax({
         url: 'http://localhost:52550/api/tasks/' + id,
-        datatype: 'json',
-        type: 'DELETE'
-        
-    }).done(function () {
-        console.log('success');
-        
+        dataType: 'json',
+        type: 'DELETE',
+        success: function (data) {
+            console.log('deleted');
+        },
+        error: function () {
+            console.log('error');
+        }
+
     });
 
     
