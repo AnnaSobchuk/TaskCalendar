@@ -50,7 +50,13 @@ display:inline-block;
 #leftB,
 #rightB{
      height:300px;
-    float:left;
+        display:inline-block;
+}
+#leftB{
+    
+}
+#rightB{
+   // float:right;
 }
 #navButt{
     height:496px;
@@ -79,3 +85,8 @@ display:inline-block;
     animation-timing-function: ease-in-out;*/
 }
 
+.delButton{
+    height:25px;
+    float:right;
+    margin-top:-5px;
+}
