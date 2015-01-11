@@ -45,7 +45,7 @@
         var i = 0;
         $(tasksJsonPayLoad).each(function (i, item) {
 
-            $('#accordion').append("<h3>" + item.taskName + ': ' + item.categoryID + "<img id = 'del" + item.taskID + "' class = 'delButton' src = '../Images/basic1-173_close_remove_exit-128.png' alt = 'del' onclick = 'deleteTsk(id)' /></h3");
+            $('#accordion').append("<h3>" + item.taskName + ': ' + item.categoryID + "<img id = '" + item.taskID + "' class = 'delButton' src = '../Images/basic1-173_close_remove_exit-128.png' onclick = 'deleteTsk(id)' alt = 'del' /></h3");
             
             $('#accordion').append('<div><p> Begin:' + item.taskBegin + 'End: ' + item.taskEnd + '</p></div>');
             tskID.push(item.taskID);
@@ -54,7 +54,7 @@
         console.log(tskID);
         //$('#accordion h3').append("<img id = 'del" + item.taskID + "' class = 'delButton' src = '../Images/basic1-173_close_remove_exit-128.png' alt = 'del' onclick = 'deleteTsk(id)' />");
         $('#accordion h3').append("<img  class = 'delButton' src = '../Images/basic1-174_ok_success_check-128.png' alt = 'accept' />");
-        //$('#accordion h3').append("");
+        
   
         $('#accordion').accordion();
     });
@@ -64,4 +64,16 @@
 });
 function deleteTsk(id) {
     console.log(id);
+    $.ajax({
+        url: 'http://localhost:52550/api/tasks/' + id,
+        datatype: 'json',
+        type: 'DELETE'
+        
+    }).done(function () {
+        console.log('success');
+        
+    });
+
+    
+    
 }

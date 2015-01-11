@@ -22,3 +22,11 @@ C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\repository\repository\b
 C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\repository\repository\obj\Debug\repository.csprojResolveAssemblyReference.cache
 C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\repository\repository\obj\Debug\repository.exe
 C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\repository\repository\obj\Debug\repository.pdb
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\repository\repository\bin\Debug\repository.exe.config
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\repository\repository\obj\Debug\repository.exe
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\repository\repository\obj\Debug\repository.pdb
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\repository\repository\bin\Debug\repository.exe
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\repository\repository\bin\Debug\repository.pdb
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\repository\repository\bin\Debug\EntityFramework.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\repository\repository\bin\Debug\EntityFramework.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\repository\repository\obj\Debug\repository.csprojResolveAssemblyReference.cache

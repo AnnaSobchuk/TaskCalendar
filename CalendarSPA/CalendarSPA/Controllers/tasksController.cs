@@ -48,7 +48,7 @@ namespace CalendarSPA.Controllers
         // DELETE api/tasks/5
         public void Delete(int id)
         {
-
+            uof.tasks.deleteTask(id);
         }
     }
 }
