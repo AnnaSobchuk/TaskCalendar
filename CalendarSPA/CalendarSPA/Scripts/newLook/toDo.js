@@ -61,7 +61,9 @@
             $.ajax({
                 url: 'http://localhost:52550/api/tasks',
                 data: JSON.stringify({
-                    taskName: $('#tname').val()
+                    TaskName: $('#tName').val(),
+                    TaskID: $('#tID').val(),
+                    CategoryID: '1'
 
                 }),
                 type: 'POST',

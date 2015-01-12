@@ -20,7 +20,7 @@ display:inline-block;
     float:right;
 }
 #top{
-     border:2px solid black;
+     //border:2px solid black;
      height:300px;
      float:left;
 }
@@ -35,14 +35,13 @@ display:inline-block;
     float:left;
     height:800px;
    
-    border:2px solid black;
+   // border:2px solid black;
 }
 #floatCalendar{
     float:right;
     height:500px;
     width:50px;
-   // background-color:rgba(0,0,0,0.5);
-    border:2px solid black;
+  //  border:2px solid black;
 }
 
 

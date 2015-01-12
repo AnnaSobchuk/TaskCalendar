@@ -24,18 +24,18 @@ namespace repository
                 //string name = Console.ReadLine();
                 //Console.WriteLine("inpput catID");
                 //string ctid = Console.ReadLine();
-                //Task tsk = new Task()
-                //{
-                //    TaskName = name,
-                //    TaskID = Convert.ToInt32(id),
-                //    CategoryID = Convert.ToInt32(ctid),
+                Task tsk = new Task()
+                {
+                    TaskName = "task1",
+                   // TaskID = Convert.ToInt32(id),
+                   CategoryID = 1,
 
 
-                //};
-                //uof.tasks.addTask(tsk);
-                //uof.Commit();
-            uof.tasks.deleteTask(1);
-            uof.Commit();
+                };
+                uof.tasks.addTask(tsk);
+                uof.Commit();
+            //uof.tasks.deleteTask(1);
+           // uof.Commit();
                 foreach (var i in uof.tasks.getTasks())
                 {
                     Console.WriteLine(i.TaskName);
