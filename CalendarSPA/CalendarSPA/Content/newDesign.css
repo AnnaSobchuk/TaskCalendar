@@ -1,27 +1,26 @@
 ﻿
 //http://www.lavishbootstrap.com/?utf8=%E2%9C%93&image_url=http%3A%2F%2Fwww.zastavki.com%2Fpictures%2Foriginals%2F2014%2FNature___Seasons___Summer_Green_field_under_the_summer_clouds_078204_.jpg&commit=Go+Lavish
 .page-header{
-    height: 300px;
-    //background-color:#545C14;
+    height: 200px;
     color:#D2BD34;
-    margin:2px;
+   
 
 
 }
 #season{
-height:300px;
-width:300px;
+height:200px;
+width:200px;
 display:inline-block;
  //border:2px solid black;
 }
 .menu{
-    height:300px;
+    height:200px;
    
     float:right;
 }
 #top{
      //border:2px solid black;
-     height:300px;
+     height:200px;
      float:left;
 }
 

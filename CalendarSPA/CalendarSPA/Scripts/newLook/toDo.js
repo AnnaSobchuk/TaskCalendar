@@ -3,11 +3,11 @@
     console.log
     var width = ($(window).width() - imgWidth) + 'px';
     $('#top').css('width', width);
-
+    $('.page-header').css('margin', '20px 0 20px');
     var today = new Date();
     var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     $('#data').text('The ' + today.getDate() + 'th of ' + months[today.getMonth()] + ' ' + today.getFullYear());
-
+   
     $('#tasks').css('width', ($(window).width() - 50) + 'px');
     //$('#tasks').css('height', ($(window).height() - 300) + 'px');
    
@@ -51,36 +51,43 @@
             tskID.push(item.taskID);
             
         });
-        console.log(tskID);
-        //$('#accordion h3').append("<img id = 'del" + item.taskID + "' class = 'delButton' src = '../Images/basic1-173_close_remove_exit-128.png' alt = 'del' onclick = 'deleteTsk(id)' />");
-        $('#accordion h3').append("<img  class = 'delButton' src = '../Images/basic1-174_ok_success_check-128.png' alt = 'accept' />");
-        
-  
         $('#accordion').accordion();
-        $('#addB').click(function () {
-            $.ajax({
-                url: 'http://localhost:52550/api/tasks',
-                data: JSON.stringify({
-                    TaskName: $('#tName').val(),
-                    TaskID: $('#tID').val(),
-                    CategoryID: '1'
-
-                }),
-                type: 'POST',
-                contentType: 'application/json; charset=utf-8',
-                success:function(data){
-                    console.log('added');
-                },
-                error: function () {
-                    console.log('error');
-                }
-
-            });
-        });
+        console.log(tskID);    
+        //$('#accordion h3').append("<img id = 'del" + item.taskID + "' class = 'delButton' src = '../Images/basic1-173_close_remove_exit-128.png' alt = 'del' onclick = 'deleteTsk(id)' />");
+        //$('#accordion h3').append("<img  class = 'delButton' src = '../Images/basic1-174_ok_success_check-128.png' alt = 'accept' />");
+    
+  
+       
+ 
     });
 
-   
+    $('#addB').click(function () {
+        $.ajax({
+            url: 'http://localhost:52550/api/tasks',
+            data: JSON.stringify({
+                TaskName: $('#tName').val(),
+                TaskID: $('#tID').val(),
+                CategoryID: '1',
+                TaskBegin: $('#dateFrom').val(),
+                TaskEnd: $('#dateTo').val()
+             }),
+            type: 'POST',
+            contentType: 'application/json; charset=utf-8',
+            success: function (data) {
+                console.log(data);
+                $('#accordion').append("<h3>" + data.taskName + ': ' + data.categoryID + "<img id = '" + data.taskID + "' class = 'delButton' src = '../Images/basic1-173_close_remove_exit-128.png' onclick = 'deleteTsk(id)' alt = 'del' /></h3");
+                $('#accordion').append('<div><p> Begin:' + data.taskBegin + 'End: ' + data.taskEnd + '</p></div>');
+                $('#accordion').accordion('refresh');
+            },
+            error: function () {
+                console.log('error');
+            }
 
+        });
+      
+    });
+   
+    
 });
 function deleteTsk(id) {
     console.log(id);

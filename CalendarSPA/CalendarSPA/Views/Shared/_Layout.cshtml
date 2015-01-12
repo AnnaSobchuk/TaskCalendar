@@ -9,12 +9,36 @@
     @Styles.Render("~/Content/bootstrap")
    
     @Scripts.Render("~/bundles/bootstrap")   
-  
+    <style>
+        .headerMenu {
+            height: 80px;
+            background-color: rgba(0, 0, 0, 0.6);
+            
+        }
+        .menuItem {
+            display: inline-block;
+            width: 100px;
+           
+           padding-top: 25px;
+            text-align: center;
+            height: 80px;
+        }
+
+            .menuItem:hover {
+                background-color: rgba(0, 0, 0, 0.7);
+                cursor: pointer;
+            }
+       
+    </style>
 </head>
 
 
 <body id="main">
-    
+    <div class="headerMenu">
+       <div class="menuItem" >@Html.ActionLink("Old view", "OldView","Home")</div>
+        <div class="menuItem">@Html.ActionLink("New view", "Index", "Home")</div>
+        @*<div class="menuItem">@Html.ActionLink("New view", "Index", "Home")</div>*@
+    </div>
        @RenderBody()
    
 </body>

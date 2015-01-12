@@ -13,5 +13,13 @@ namespace CalendarSPA.Controllers
             ViewBag.ReturnUrl = returnUrl;
             return View();
         }
+        public ActionResult OldView()
+        {
+            return View();
+        }
+        public ActionResult NewView()
+        {
+            return View();
+        }
     }
 }
