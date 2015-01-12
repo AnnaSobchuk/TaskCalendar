@@ -27,7 +27,7 @@ namespace repository
                 Task tsk = new Task()
                 {
                     TaskName = "task1",
-                   // TaskID = Convert.ToInt32(id),
+                   TaskID = 1,
                    CategoryID = 1,
 
 
