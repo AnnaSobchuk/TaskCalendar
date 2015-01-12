@@ -57,6 +57,24 @@
         
   
         $('#accordion').accordion();
+        $('#addB').click(function () {
+            $.ajax({
+                url: 'http://localhost:52550/api/tasks',
+                data: JSON.stringify({
+                    taskName: $('#tname').val()
+
+                }),
+                type: 'POST',
+                contentType: 'application/json; charset=utf-8',
+                success:function(data){
+                    console.log('added');
+                },
+                error: function () {
+                    console.log('error');
+                }
+
+            });
+        });
     });
 
    
@@ -70,6 +88,11 @@ function deleteTsk(id) {
         type: 'DELETE',
         success: function (data) {
             console.log('deleted');
+            $('#' + id).parent().next().empty();
+            $('#' + id).parent().next().remove();
+            $('#' + id).parent().remove();
+            $('#' + id).parent().empty();
+        
         },
         error: function () {
             console.log('error');

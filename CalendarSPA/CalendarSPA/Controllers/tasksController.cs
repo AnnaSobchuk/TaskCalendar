@@ -36,8 +36,15 @@ namespace CalendarSPA.Controllers
         }
 
         // POST api/tasks
-        public void Post([FromBody]string value)
+        public Task Post(Task item)
         {
+            if (item == null)
+            {
+                throw new ArgumentNullException("item");
+            }
+            uof.tasks.addTask(item);
+            uof.Commit();
+            return item;
         }
 
         // PUT api/tasks/5
@@ -49,6 +56,7 @@ namespace CalendarSPA.Controllers
         public void Delete(int id)
         {
             uof.tasks.deleteTask(id);
+            uof.Commit();
         }
     }
 }

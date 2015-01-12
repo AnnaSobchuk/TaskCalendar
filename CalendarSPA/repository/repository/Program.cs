@@ -34,10 +34,13 @@ namespace repository
                 //};
                 //uof.tasks.addTask(tsk);
                 //uof.Commit();
+            uof.tasks.deleteTask(1);
+            uof.Commit();
                 foreach (var i in uof.tasks.getTasks())
                 {
                     Console.WriteLine(i.TaskName);
                 }
+
                 //if (choise == "n")
                 //{
                 //    break;
