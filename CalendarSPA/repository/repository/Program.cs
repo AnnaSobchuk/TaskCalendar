@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ninject;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,12 +9,15 @@ namespace repository
 {
     class Program
     {
+        public static IKernel AppKernel;
         static void Main(string[] args)
         {
-            string choise;
-            Entities db = new Entities();
-            UnitOfWork uof = new UnitOfWork(db);
+           
 
+            Entities db = new Entities();
+           // UnitOfWork uof = new UnitOfWork(db);
+            AppKernel = new StandardKernel(new MyNinjectModule());
+            var uof = AppKernel.Get<UnitOfWork>();
             //do
             //{
                 //Console.WriteLine("add task?");

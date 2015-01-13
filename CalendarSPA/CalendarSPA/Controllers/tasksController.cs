@@ -10,7 +10,8 @@ namespace CalendarSPA.Controllers
 {
     public class tasksController : ApiController
     {
-        // GET api/tasks
+
+        
         Entities dbContext;
         UnitOfWork uof;
 
@@ -19,6 +20,7 @@ namespace CalendarSPA.Controllers
             dbContext = new Entities();
             uof = new UnitOfWork(dbContext);
         }
+        // GET api/tasks
         public Task[] Get()
         {
             List<Task> names = new List<Task>();
