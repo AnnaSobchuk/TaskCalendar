@@ -1,4 +1,5 @@
-﻿using repository;
+﻿using Ninject;
+using repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,15 +11,16 @@ namespace CalendarSPA.Controllers
 {
     public class tasksController : ApiController
     {
-
-        
-        Entities dbContext;
-        UnitOfWork uof;
+         public static IKernel AppKernel;
+         UnitOfWork uof;
+       
+         
 
         public tasksController()
         {
-            dbContext = new Entities();
-            uof = new UnitOfWork(dbContext);
+            AppKernel = new StandardKernel(new MyNinjectModule());
+
+           uof = AppKernel.Get<UnitOfWork>();
         }
         // GET api/tasks
         public Task[] Get()

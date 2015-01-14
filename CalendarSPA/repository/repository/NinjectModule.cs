@@ -11,7 +11,7 @@ namespace repository
     {
       public override void Load()
       {
-          this.Bind<IUnitOfWork>().To<UnitOfWork>();
+         this.Bind<IUnitOfWork>().To<UnitOfWork>();
       }
     }
 }

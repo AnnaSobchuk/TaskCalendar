@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-    var imgWidth = 370;
+    var imgWidth = 210;
     console.log
     var width = ($(window).width() - imgWidth) + 'px';
     $('#top').css('width', width);
