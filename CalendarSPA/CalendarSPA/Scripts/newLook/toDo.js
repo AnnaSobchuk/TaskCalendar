@@ -9,9 +9,10 @@
     $.getJSON('/api/tasks', function (tasksJsonPayLoad) {
 
         $(tasksJsonPayLoad).each(function (i, item) {
-
-            $('#accordion').append("<h3>" + item.taskName + ': ' + item.categoryID + "<img  class = 'delButton' src = '../Images/basic1-174_ok_success_check-128.png' alt = 'accept'/> <img id = '" + item.taskID + "' class = 'delButton' src = '../Images/basic1-173_close_remove_exit-128.png' onclick = 'deleteTsk(id)' alt = 'del' /></h3");
-            $('#accordion').append('<div><p>' + item.taskTime + '</p></div>');
+            //if (item.done === false) {
+                $('#accordion').append("<h3>" + item.taskName + "<img  class = 'delButton' src = '../Images/basic1-174_ok_success_check-128.png' alt = 'accept'/> <img id = '" + item.taskID + "' class = 'delButton' src = '../Images/basic1-173_close_remove_exit-128.png' onclick = 'deleteTsk(id)' alt = 'del' /></h3");
+                $('#accordion').append('<div><p>do something important</p></div>');
+            //}
         });
         $('#accordion').accordion();
     });
@@ -23,15 +24,15 @@
                 TaskName: $('#tName').val(),
                 TaskID: $('#tID').val(),
                 CategoryID: '1',
-                TaskTime: $('#dateFrom').val(),
+                Done: 'false'
 
             }),
             type: 'POST',
             contentType: 'application/json; charset=utf-8',
             success: function (data) {
                 console.log(data);
-                $('#accordion').append("<h3>" + data.taskName + ': ' + data.categoryID + "<img id = '" + data.taskID + "' class = 'delButton' src = '../Images/basic1-173_close_remove_exit-128.png' onclick = 'deleteTsk(id)' alt = 'del' /></h3");
-                $('#accordion').append('<div><p> ' + data.taskTime + '</p></div>');
+                $('#accordion').append("<h3>" + data.taskName + "<img id = '" + data.taskID + "' class = 'delButton' src = '../Images/basic1-173_close_remove_exit-128.png' onclick = 'deleteTsk(id)' alt = 'del' /></h3");
+                $('#accordion').append('<div><p> do something important </p></div>');
                 $('#accordion').accordion('refresh');
             },
             error: function () {

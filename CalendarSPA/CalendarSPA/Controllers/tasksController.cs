@@ -34,9 +34,9 @@ namespace CalendarSPA.Controllers
         }
 
         // GET api/tasks/5
-        public string Get(int id)
+        public Task Get(int id)
         {
-            return "value";
+            return uof.tasks.getID(id)
         }
 
         // POST api/tasks

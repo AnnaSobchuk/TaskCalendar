@@ -15,6 +15,7 @@ namespace repository
     {
         Entities context;
         Repository<Task> tasksRepository;
+        Repository<TaskCategory> categoriesRepository;
         public UnitOfWork()
         {
             context = new Entities();
@@ -36,6 +37,18 @@ namespace repository
                     this.tasksRepository = new Repository<Task>(this.context);
                 }
                 return this.tasksRepository;
+
+            }
+        }
+        public IRepository<TaskCategory> categories
+        {
+            get
+            {
+                if (this.categoriesRepository == null)
+                {
+                    this.categoriesRepository = new Repository<TaskCategory>(this.context);
+                }
+                return this.categoriesRepository;
 
             }
         }
