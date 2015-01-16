@@ -5,7 +5,57 @@
 }
 
 
-@Html.Partial("NewView")
+@*<div id="page-content">*@
+<div id="plannedContainer" class="partShow">
+   <div id="tabs">
+        <ul >
+            <li><a href="#accordion">To do List</a></li>
+            <li><a href="#tabs-2">Solved</a></li>
+            <li><a href="#floatCalendar">Add</a></li>
+        </ul>
+
+        <div id="accordion">
+            <h3>Plan new Task</h3>
+            <div id="taskForm">
+
+               
+                <p>Task Name <input id="tName" type="text" /></p>
+                <p>ID <input id="tID" type="text" /></p>
+            
+               
+
+
+                <button id="addB" class="btn btn-success btn-block btn-lg" type="button">Add</button>
+            </div>
+        </div>
+        <div id="tabs-2"></div>
+
+       
+    </div>
+    </div>
+<div id="solvedContainer" class="partHide" >
+    <div id="solve">
+        <ul>
+            <li><a href="#solveAccordion">To do List</a></li>
+            @*<li><a href="#tabs-2">Solved</a></li>
+            <li><a href="#floatCalendar">Add</a></li>*@
+        </ul>
+
+        <div id="solveAccordion" >
+            
+         
+        </div>
+        <div id="solveTabs-2"></div>
+
+
+    </div>
+
+</div>
+
+
+
+
+@*</div>*@
 
 
 

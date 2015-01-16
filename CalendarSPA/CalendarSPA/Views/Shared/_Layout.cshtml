@@ -9,37 +9,21 @@
     @Styles.Render("~/Content/bootstrap")
    
     @Scripts.Render("~/bundles/bootstrap")   
-    <style>
-        .headerMenu {
-            height: 80px;
-            background-color: rgba(0, 0, 0, 0.6);
-            
-        }
-        .menuItem {
-            display: inline-block;
-            width: 100px;
-           
-           padding-top: 25px;
-            text-align: center;
-            height: 80px;
-        }
-
-            .menuItem:hover {
-                background-color: rgba(0, 0, 0, 0.7);
-                cursor: pointer;
-            }
-       
-    </style>
+    @Styles.Render("~/Content/new")
+    @Scripts.Render("~/bundles/new")
+    
+   
 </head>
 
 
 <body id="main">
-    <div class="headerMenu">
-       <div class="menuItem" >@Html.ActionLink("Old view", "OldView","Home")</div>
-        <div class="menuItem">@Html.ActionLink("New view", "Index", "Home")</div>
-        @*<div class="menuItem">@Html.ActionLink("New view", "Index", "Home")</div>*@
+    <div class="page-header" >
+      <h1>My taskboard</h1>
+       @*<div class="menuItem" >@Html.ActionLink("Old view", "OldView","Home")</div>*@
+       <div class="menuItem" id="planned">Planned</div>
+       <div class="menuItem" id="solved">Solved</div>
     </div>
-       @RenderBody()
+    @RenderBody()
    
 </body>
 </html>

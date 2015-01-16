@@ -17,9 +17,10 @@ namespace CalendarSPA.Controllers
         {
             return View();
         }
-        public ActionResult NewView()
+        public ActionResult Solved()
         {
             return View();
         }
+       
     }
 }

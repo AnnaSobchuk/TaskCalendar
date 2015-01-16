@@ -328,9 +328,6 @@
     <Content Include="Views\Home\OldView.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\NewView.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\repository\repository\repository.csproj">
       <Project>{31001071-99f4-4e9c-884d-ac890d1a6236}</Project>
       <Name>repository</Name>

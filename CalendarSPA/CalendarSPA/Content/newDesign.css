@@ -1,80 +1,70 @@
 ﻿
 /*//http://www.lavishbootstrap.com/?utf8=%E2%9C%93&image_url=http%3A%2F%2Fwww.zastavki.com%2Fpictures%2Foriginals%2F2014%2FNature___Seasons___Summer_Green_field_under_the_summer_clouds_078204_.jpg&commit=Go+Lavish*/
-.page-header{
-    height: 100px;
-    /*color:#D2BD34;*/
-   
-
-
+.page-header {
+    height: 200px;
+    background-color: #B4CBCD;
+    /*color: #D2BD34 !important;*/
+    margin-top:-25px !important;
 }
-#season{
-height:200px;
-width:200px;
-display:inline-block;
- /*//border:2px solid black;*/
-}
-.menu{
-    height:100px;
-   
-    /*float:right;*/
-}
-#top{
-     /*//border:2px solid black;*/
-     height:200px;
-     /*float:left;*/
-}
-
-
-#data{
-    margin-top: 50px;
+.page-header h1{
     text-align:center;
-    font-size:60pt;
+    padding-top:30px;
 }
-#tasks{
-    /*float:left;*/
-    height:800px;
-   
-   // border:2px solid black;
+.page-header a{
+    color:#758810 !important;
 }
-#floatCalendar{
+.page-header a:hover {
+    color: #65899E !important;
+}
+
+#season {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    /*//border:2px solid black;*/
+}
+
+.menu {
+    height: 100px;
     /*float:right;*/
-   /*height:50px;*/
-    /*width:50px;*/
-  //  border:2px solid black;
 }
 
 
 
-#leftB,
-#rightB{
-     height:300px;
-        display:inline-block;
-}
-#leftB{
-    
-}
-#rightB{
-   /*// float:right;*/
-}
-#navButt{
-    height:50px;
+
+
+#tasks {
     /*float:left;*/
-}
-.formHidden{
-   width:200px;
-    display: none;
-   height:500px;
-   
-}
-.formShow{
-    height:500px;
-    width:200px;
- display:inline-block;
- 
+    height: 800px;
+    // border:2px solid black;
 }
 
-.delButton{
-    height:25px;
-    float:right;
-    margin-top:-5px;
+
+
+
+
+.delButton {
+    height: 25px;
+    float: right;
+    margin-top: -5px;
 }
+
+.menuItem {
+    display: inline-block;
+    width: 100px;
+    margin-top: 50px;
+    padding-top:25px;
+    text-align: center;
+    height: 80px;
+}
+.menuItem:hover{
+    cursor:pointer;
+}
+   
+.partHide{
+    display:none;
+}
+.partShow{
+    display:block;
+}
+
