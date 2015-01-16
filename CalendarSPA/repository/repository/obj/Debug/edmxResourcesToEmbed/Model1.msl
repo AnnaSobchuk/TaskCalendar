@@ -4,7 +4,8 @@
     <EntitySetMapping Name="Tasks">
       <EntityTypeMapping TypeName="Model.Task">
         <MappingFragment StoreEntitySet="Task">
-          <ScalarProperty Name="TaskTime" ColumnName="TaskTime" />
+          <ScalarProperty Name="Done" ColumnName="Done" />
+          <ScalarProperty Name="TaskDescription" ColumnName="TaskDescription" />
           <ScalarProperty Name="TaskID" ColumnName="TaskID" />
           <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
           <ScalarProperty Name="TaskName" ColumnName="TaskName" />
@@ -16,7 +17,6 @@
         <MappingFragment StoreEntitySet="TaskCategory">
           <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
           <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
-          <ScalarProperty Name="CategoryDescription" ColumnName="CategoryDescription" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

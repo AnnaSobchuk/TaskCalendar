@@ -7,7 +7,8 @@
     <Property Name="TaskID" Type="int" Nullable="false" />
     <Property Name="CategoryID" Type="int" Nullable="false" />
     <Property Name="TaskName" Type="varchar" MaxLength="150" />
-    <Property Name="TaskTime" Type="datetime" />
+    <Property Name="TaskDescription" Type="varchar(max)" />
+    <Property Name="Done" Type="bit" />
   </EntityType>
   <EntityType Name="TaskCategory">
     <Key>
@@ -15,7 +16,6 @@
     </Key>
     <Property Name="CategoryID" Type="int" Nullable="false" />
     <Property Name="CategoryName" Type="varchar" MaxLength="200" />
-    <Property Name="CategoryDescription" Type="varchar" MaxLength="500" />
   </EntityType>
   <Association Name="FK__Task__CategoryID__267ABA7A">
     <End Role="TaskCategory" Type="Self.TaskCategory" Multiplicity="1" />

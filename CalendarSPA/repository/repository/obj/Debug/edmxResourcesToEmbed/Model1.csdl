@@ -8,7 +8,8 @@
     <Property Name="CategoryID" Type="Int32" Nullable="false" />
     <Property Name="TaskName" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
     <NavigationProperty Name="TaskCategory" Relationship="Self.FK__Task__CategoryID__145C0A3F" FromRole="Task" ToRole="TaskCategory" />
-    <Property Name="TaskTime" Type="DateTime" Precision="3" />
+    <Property Name="TaskDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Done" Type="Boolean" />
   </EntityType>
   <EntityType Name="TaskCategory">
     <Key>
@@ -16,7 +17,6 @@
     </Key>
     <Property Name="CategoryID" Type="Int32" Nullable="false" />
     <Property Name="CategoryName" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
-    <Property Name="CategoryDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
     <NavigationProperty Name="Tasks" Relationship="Self.FK__Task__CategoryID__145C0A3F" FromRole="TaskCategory" ToRole="Task" />
   </EntityType>
   <Association Name="FK__Task__CategoryID__145C0A3F">

@@ -12,7 +12,8 @@
           <Property Name="TaskID" Type="int" Nullable="false" />
           <Property Name="CategoryID" Type="int" Nullable="false" />
           <Property Name="TaskName" Type="varchar" MaxLength="150" />
-          <Property Name="TaskTime" Type="datetime" />
+          <Property Name="TaskDescription" Type="varchar(max)" />
+          <Property Name="Done" Type="bit" />
         </EntityType>
         <EntityType Name="TaskCategory">
           <Key>
@@ -20,7 +21,6 @@
           </Key>
           <Property Name="CategoryID" Type="int" Nullable="false" />
           <Property Name="CategoryName" Type="varchar" MaxLength="200" />
-          <Property Name="CategoryDescription" Type="varchar" MaxLength="500" />
         </EntityType>
         <Association Name="FK__Task__CategoryID__267ABA7A">
           <End Role="TaskCategory" Type="Self.TaskCategory" Multiplicity="1" />
@@ -54,7 +54,8 @@
           <Property Name="CategoryID" Type="Int32" Nullable="false" />
           <Property Name="TaskName" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="TaskCategory" Relationship="Self.FK__Task__CategoryID__145C0A3F" FromRole="Task" ToRole="TaskCategory" />
-          <Property Name="TaskTime" Type="DateTime" Precision="3" />
+          <Property Name="TaskDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Done" Type="Boolean" />
         </EntityType>
         <EntityType Name="TaskCategory">
           <Key>
@@ -62,7 +63,6 @@
           </Key>
           <Property Name="CategoryID" Type="Int32" Nullable="false" />
           <Property Name="CategoryName" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
-          <Property Name="CategoryDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="Tasks" Relationship="Self.FK__Task__CategoryID__145C0A3F" FromRole="TaskCategory" ToRole="Task" />
         </EntityType>
         <Association Name="FK__Task__CategoryID__145C0A3F">
@@ -94,7 +94,8 @@
           <EntitySetMapping Name="Tasks">
             <EntityTypeMapping TypeName="Model.Task">
               <MappingFragment StoreEntitySet="Task">
-                <ScalarProperty Name="TaskTime" ColumnName="TaskTime" />
+                <ScalarProperty Name="Done" ColumnName="Done" />
+                <ScalarProperty Name="TaskDescription" ColumnName="TaskDescription" />
                 <ScalarProperty Name="TaskID" ColumnName="TaskID" />
                 <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
                 <ScalarProperty Name="TaskName" ColumnName="TaskName" />
@@ -106,7 +107,6 @@
               <MappingFragment StoreEntitySet="TaskCategory">
                 <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
                 <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
-                <ScalarProperty Name="CategoryDescription" ColumnName="CategoryDescription" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
