@@ -7,8 +7,7 @@
     <Property Name="TaskID" Type="int" Nullable="false" />
     <Property Name="CategoryID" Type="int" Nullable="false" />
     <Property Name="TaskName" Type="varchar" MaxLength="150" />
-    <Property Name="TaskBegin" Type="datetime" />
-    <Property Name="TaskEnd" Type="datetime" />
+    <Property Name="TaskTime" Type="datetime" />
   </EntityType>
   <EntityType Name="TaskCategory">
     <Key>
@@ -18,7 +17,7 @@
     <Property Name="CategoryName" Type="varchar" MaxLength="200" />
     <Property Name="CategoryDescription" Type="varchar" MaxLength="500" />
   </EntityType>
-  <Association Name="FK__Task__CategoryID__145C0A3F">
+  <Association Name="FK__Task__CategoryID__267ABA7A">
     <End Role="TaskCategory" Type="Self.TaskCategory" Multiplicity="1" />
     <End Role="Task" Type="Self.Task" Multiplicity="*" />
     <ReferentialConstraint>
@@ -33,7 +32,7 @@
   <EntityContainer Name="ModelStoreContainer">
     <EntitySet Name="Task" EntityType="Self.Task" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TaskCategory" EntityType="Self.TaskCategory" Schema="dbo" store:Type="Tables" />
-    <AssociationSet Name="FK__Task__CategoryID__145C0A3F" Association="Self.FK__Task__CategoryID__145C0A3F">
+    <AssociationSet Name="FK__Task__CategoryID__267ABA7A" Association="Self.FK__Task__CategoryID__267ABA7A">
       <End Role="TaskCategory" EntitySet="TaskCategory" />
       <End Role="Task" EntitySet="Task" />
     </AssociationSet>

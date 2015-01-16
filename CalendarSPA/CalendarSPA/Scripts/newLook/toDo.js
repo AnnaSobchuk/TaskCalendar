@@ -19,41 +19,41 @@
             
             $('#taskForm').switchClass('formHidden', 'formShow', 1000);
           
-            $('#floatCalendar').css('width', '300');
+            $('#floatCalendar').css('height', '300');
 
-            $('#tasks').css('width', $('#tasks').width() - 250 + 'px');
+            //$('#tasks').css('width', $('#tasks').width() - 250 + 'px');
         }
         else {
             flag = false;
             $('#taskForm').switchClass('formShow', 'formHidden', 1000);
         
-            $('#floatCalendar').css('width', '50');
+            $('#floatCalendar').css('height', '50');
 
-            $('#tasks').css('width', $('#tasks').width() + 250 + 'px');
+           // $('#tasks').css('width', $('#tasks').width() + 250 + 'px');
         }
     });
     $('#dateFrom').datepicker({
         showOtherMonths: true,
         selectOtherMonths: true
     });
-    $('#dateTo').datepicker({
-        showOtherMonths: true,
-        selectOtherMonths: true
-    });
+   
     $.getJSON('/api/tasks', function (tasksJsonPayLoad) {
         var tskID = new Array();
         var i = 0;
+        var today = new Date();
+       
         $(tasksJsonPayLoad).each(function (i, item) {
+          
+           
+                $('#accordion').append("<h3>" + item.taskName + ': ' + item.categoryID + "<img  class = 'delButton' src = '../Images/basic1-174_ok_success_check-128.png' alt = 'accept'/> <img id = '" + item.taskID + "' class = 'delButton' src = '../Images/basic1-173_close_remove_exit-128.png' onclick = 'deleteTsk(id)' alt = 'del' /></h3");
 
-            $('#accordion').append("<h3>" + item.taskName + ': ' + item.categoryID + "<img id = '" + item.taskID + "' class = 'delButton' src = '../Images/basic1-173_close_remove_exit-128.png' onclick = 'deleteTsk(id)' alt = 'del' /></h3");
-            
-            $('#accordion').append('<div><p> Begin:' + item.taskBegin + 'End: ' + item.taskEnd + '</p></div>');
-            tskID.push(item.taskID);
+                $('#accordion').append('<div><p>' + item.taskTime + '</p></div>');
+                tskID.push(item.taskID);
             
         });
         $('#accordion').accordion();
         console.log(tskID);    
-        //$('#accordion h3').append("<img id = 'del" + item.taskID + "' class = 'delButton' src = '../Images/basic1-173_close_remove_exit-128.png' alt = 'del' onclick = 'deleteTsk(id)' />");
+       
         //$('#accordion h3').append("<img  class = 'delButton' src = '../Images/basic1-174_ok_success_check-128.png' alt = 'accept' />");
     
   
@@ -68,15 +68,15 @@
                 TaskName: $('#tName').val(),
                 TaskID: $('#tID').val(),
                 CategoryID: '1',
-                TaskBegin: $('#dateFrom').val(),
-                TaskEnd: $('#dateTo').val()
+                TaskTime: $('#dateFrom').val(),
+                
              }),
             type: 'POST',
             contentType: 'application/json; charset=utf-8',
             success: function (data) {
                 console.log(data);
                 $('#accordion').append("<h3>" + data.taskName + ': ' + data.categoryID + "<img id = '" + data.taskID + "' class = 'delButton' src = '../Images/basic1-173_close_remove_exit-128.png' onclick = 'deleteTsk(id)' alt = 'del' /></h3");
-                $('#accordion').append('<div><p> Begin:' + data.taskBegin + 'End: ' + data.taskEnd + '</p></div>');
+                $('#accordion').append('<div><p> ' + data.taskTime + '</p></div>');
                 $('#accordion').accordion('refresh');
             },
             error: function () {
@@ -86,7 +86,7 @@
         });
       
     });
-   
+    $('#tabs').tabs();
     
 });
 function deleteTsk(id) {
@@ -109,6 +109,6 @@ function deleteTsk(id) {
 
     });
 
-    
+   
     
 }

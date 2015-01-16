@@ -356,3 +356,5 @@ C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\reposit
 C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\repository.pdb
 C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Ninject.dll
 C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Ninject.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Ninject.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Ninject.xml

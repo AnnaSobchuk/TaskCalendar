@@ -17,8 +17,7 @@ namespace repository
         public int TaskID { get; set; }
         public int CategoryID { get; set; }
         public string TaskName { get; set; }
-        public Nullable<System.DateTime> TaskBegin { get; set; }
-        public Nullable<System.DateTime> TaskEnd { get; set; }
+        public Nullable<System.DateTime> TaskTime { get; set; }
     
         public virtual TaskCategory TaskCategory { get; set; }
     }

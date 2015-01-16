@@ -32,3 +32,5 @@ C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\repository\repository\b
 C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\repository\repository\obj\Debug\repository.csprojResolveAssemblyReference.cache
 C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\repository\repository\bin\Debug\Ninject.dll
 C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\repository\repository\bin\Debug\Ninject.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\repository\repository\bin\Debug\Ninject.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\repository\repository\bin\Debug\Ninject.xml

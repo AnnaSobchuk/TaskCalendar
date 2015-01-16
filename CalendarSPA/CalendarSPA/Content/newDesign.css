@@ -1,8 +1,8 @@
 ﻿
-//http://www.lavishbootstrap.com/?utf8=%E2%9C%93&image_url=http%3A%2F%2Fwww.zastavki.com%2Fpictures%2Foriginals%2F2014%2FNature___Seasons___Summer_Green_field_under_the_summer_clouds_078204_.jpg&commit=Go+Lavish
+/*//http://www.lavishbootstrap.com/?utf8=%E2%9C%93&image_url=http%3A%2F%2Fwww.zastavki.com%2Fpictures%2Foriginals%2F2014%2FNature___Seasons___Summer_Green_field_under_the_summer_clouds_078204_.jpg&commit=Go+Lavish*/
 .page-header{
-    height: 200px;
-    color:#D2BD34;
+    height: 100px;
+    /*color:#D2BD34;*/
    
 
 
@@ -11,17 +11,17 @@
 height:200px;
 width:200px;
 display:inline-block;
- //border:2px solid black;
+ /*//border:2px solid black;*/
 }
 .menu{
-    height:200px;
+    height:100px;
    
-    float:right;
+    /*float:right;*/
 }
 #top{
-     //border:2px solid black;
+     /*//border:2px solid black;*/
      height:200px;
-     float:left;
+     /*float:left;*/
 }
 
 
@@ -31,15 +31,15 @@ display:inline-block;
     font-size:60pt;
 }
 #tasks{
-    float:left;
+    /*float:left;*/
     height:800px;
    
    // border:2px solid black;
 }
 #floatCalendar{
-    float:right;
-    height:500px;
-    width:50px;
+    /*float:right;*/
+   /*height:50px;*/
+    /*width:50px;*/
   //  border:2px solid black;
 }
 
@@ -54,11 +54,11 @@ display:inline-block;
     
 }
 #rightB{
-   // float:right;
+   /*// float:right;*/
 }
 #navButt{
-    height:496px;
-    float:left;
+    height:50px;
+    /*float:left;*/
 }
 .formHidden{
    width:200px;
@@ -70,17 +70,7 @@ display:inline-block;
     height:500px;
     width:200px;
  display:inline-block;
- /*-webkit-animation-name: 'movement';
-
-    -webkit-animation-duration: 10s;
-
-    -webkit-animation-timing-function: ease-in-out;
-
-    animation-name: 'movement';
-
-    animation-duration: 10s;
-
-    animation-timing-function: ease-in-out;*/
+ 
 }
 
 .delButton{
