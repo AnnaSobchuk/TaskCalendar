@@ -67,4 +67,13 @@
 .partShow{
     display:block;
 }
+#tabs{
+    
+    float:left;
+}
+#addFormContainer{
+    width:300px;
+    float:left;
+
+}
 

@@ -2,51 +2,56 @@
     ViewBag.Title = "My Todo List";
     
 }
-@model repository.TaskCategory
 
 @*<div id="page-content">*@
 <div id="plannedContainer" class="partShow">
    <div id="tabs">
         <ul >
           
-            <li><a href="#accordion"></a></li>
-            <li><a href="#tabs-2">Solved</a></li>
-            <li><a href="#floatCalendar">Add</a></li>
+            <li><a href="#accordion">Programming</a></li>
+            <li><a href="#homework">Homework</a></li>
+            <li><a href="#education">Education</a></li>
             
         </ul>
 
-        <div id="accordion">
-            <h3>Plan new Task</h3>
-            <div id="taskForm">
-
-               
-                <p>Task Name <input id="tName" type="text" /></p>
-                <p>ID <input id="tID" type="text" /></p>
-            
-               
-
-
-                <button id="addB" class="btn btn-success btn-block btn-lg" type="button">Add</button>
-            </div>
-        </div>
-        <div id="tabs-2"></div>
-
+       <div id="accordion"></div>
+       <div id="homework"></div>
+       <div id="education"></div>
        
     </div>
+    <div id="addFormContainer">
+        <button class="btn btn-default btn-lg" id="planNew">Plan new task</button>
+        <div id="taskForm" class="partHide">
+            <p><label for="tID">Task Name</label> <input id="tName" type="text" /></p>
+            <p><label for="tID">ID</label>  <input id="tID" type="text" /></p>
+            <label for="categories">Select category</label>
+            <select id="categories">
+                <option>Select category</option>
+                <option>Programming</option>
+                <option>Homework</option>
+                <option>Education</option>
+            </select>
+            <p>
+                <label for="descr"> Description</label>
+               
+                <textarea rows="5" cols="35" id="descr"></textarea>
+            </p> 
+                <button id="addB" class="btn btn-success btn-block btn-lg" type="button">Add</button>
+            
+        </div>
     </div>
-<div id="solvedContainer" class="partHide" >
+    </div>
+ <div id="solvedContainer" class="partHide" >
     <div id="solve">
         <ul>
-            <li><a href="#solveAccordion">To do List</a></li>
-            @*<li><a href="#tabs-2">Solved</a></li>
-            <li><a href="#floatCalendar">Add</a></li>*@
+            <li><a href="#prgrammingDone">Programming</a></li>
+            <li><a href="#homeworkDone">Homework</a></li>
+            <li><a href="#educationDone">Education</a></li>
         </ul>
 
-        <div id="solveAccordion" >
-            
-         
-        </div>
-        <div id="solveTabs-2"></div>
+        <div id="prgrammingDone"></div>
+        <div id="homeworkDone"></div>
+        <div id="educationDone"></div>
 
 
     </div>
@@ -56,7 +61,7 @@
 
 
 
-@*</div>*@
+
 
 
 
