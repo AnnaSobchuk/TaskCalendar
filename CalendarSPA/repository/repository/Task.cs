@@ -19,6 +19,7 @@ namespace repository
         public string TaskName { get; set; }
         public string TaskDescription { get; set; }
         public Nullable<bool> Done { get; set; }
+        public string TaskDate { get; set; }
     
         public virtual TaskCategory TaskCategory { get; set; }
     }
