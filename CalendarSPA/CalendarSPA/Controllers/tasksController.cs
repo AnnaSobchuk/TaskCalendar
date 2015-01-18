@@ -52,14 +52,13 @@ namespace CalendarSPA.Controllers
         }
 
         // PUT api/tasks/5
-        public void Put(Task item)
+        public Task Put(int id)
         {
-            Task tmp = uof.tasks.getID(item.TaskID);
-            tmp.TaskCategory = item.TaskCategory;
-            tmp.TaskDescription = item.TaskDescription;
-            tmp.TaskName = tmp.TaskName;
-            tmp.Done = item.Done;
-           uof.tasks.updateTask(tmp);
+            Task tmp = uof.tasks.getID(id);
+            tmp.Done = true;
+            uof.tasks.updateTask(tmp);
+            uof.Commit();
+            return tmp;
         }
 
         // DELETE api/tasks/5

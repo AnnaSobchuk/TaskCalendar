@@ -39,7 +39,7 @@ namespace CalendarSPA
                ));
             bundles.Add(new StyleBundle("~/Content/new").Include(
                   "~/Content/newDesign.css", 
-                  "~/Content/lavish-bootstrap.css",
+                  //"~/Content/lavish-bootstrap.css",
                   "~/Content/themes/jquery.ui.all.css"
                
              

@@ -5,25 +5,24 @@
     <title>@ViewBag.Title - My ASP.NET MVC Application</title>
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width" />
-    
+
     @Styles.Render("~/Content/bootstrap")
-   
-    @Scripts.Render("~/bundles/bootstrap")   
+    @Scripts.Render("~/bundles/bootstrap")
     @Styles.Render("~/Content/new")
     @Scripts.Render("~/bundles/new")
-    
-   
+
+
 </head>
 
 
 <body id="main">
-    <div class="page-header" >
-      <h1>My taskboard</h1>
-       @*<div class="menuItem" >@Html.ActionLink("Old view", "OldView","Home")</div>*@
-       <div class="menuItem" id="planned">Planned</div>
-       <div class="menuItem" id="solved">Solved</div>
+    <div class="page-header">
+        <h1>My taskboard</h1>
+        @*<div class="menuItem" >@Html.ActionLink("Old view", "OldView","Home")</div>*@
+        <div class="menuItem" id="planned">Planned</div>
+        <div class="menuItem" id="solved">Solved</div>
     </div>
     @RenderBody()
-   
+
 </body>
 </html>

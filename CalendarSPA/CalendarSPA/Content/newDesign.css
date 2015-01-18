@@ -3,30 +3,25 @@
 .page-header {
     height: 200px;
     background-color: #B4CBCD;
-    /*color: #D2BD34 !important;*/
-    margin-top:-25px !important;
-}
-.page-header h1{
-    text-align:center;
-    padding-top:30px;
-}
-.page-header a{
-    color:#758810 !important;
-}
-.page-header a:hover {
-    color: #65899E !important;
+    margin-top: -25px !important;
 }
 
-#season {
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-    /*//border:2px solid black;*/
-}
+    .page-header h1 {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .page-header a {
+        color: #758810 !important;
+    }
+
+        .page-header a:hover {
+            color: #65899E !important;
+        }
+
 
 .menu {
     height: 100px;
-    /*float:right;*/
 }
 
 
@@ -36,12 +31,7 @@
 #tasks {
     /*float:left;*/
     height: 800px;
-    // border:2px solid black;
-}
-
-
-
-
+   }
 
 .delButton {
     height: 25px;
@@ -53,27 +43,53 @@
     display: inline-block;
     width: 100px;
     margin-top: 50px;
-    padding-top:25px;
+    padding-top: 25px;
     text-align: center;
     height: 80px;
 }
-.menuItem:hover{
-    cursor:pointer;
-}
-   
-.partHide{
-    display:none;
-}
-.partShow{
-    display:block;
-}
-#tabs{
-    
-    float:left;
-}
-#addFormContainer{
-    width:300px;
-    float:left;
 
+    .menuItem:hover {
+        cursor: pointer;
+    }
+
+.partHide {
+    display: none;
 }
 
+.partShow {
+    display: block;
+}
+
+#tabs,
+#GITsync {
+    height: 250px;
+    background-color: #ffffff;
+}
+
+#taskForm {
+    width: 300px;
+    height: 500px;
+    background-color: #ffffff;
+    border: 1px solid #aaaaaa;
+}
+
+.title {
+    background-color: #cccccc;
+    border: 1px solid #aaaaaa;
+    color: #222222;
+    border-radius: 2px;
+    height: 42px;
+    margin: 2px 2px 5px 2px !important;
+    font-family: Verdana,Arial,sans-serif !important;
+}
+
+#datePicker {
+    float: left;
+    height: 100px;
+}
+
+.rightSide,
+#taskForm {
+    float: left;
+    margin-right: 5px;
+}
