@@ -4,6 +4,7 @@
     <EntitySetMapping Name="Tasks">
       <EntityTypeMapping TypeName="Model.Task">
         <MappingFragment StoreEntitySet="Task">
+          <ScalarProperty Name="TaskDate" ColumnName="TaskDate" />
           <ScalarProperty Name="Done" ColumnName="Done" />
           <ScalarProperty Name="TaskDescription" ColumnName="TaskDescription" />
           <ScalarProperty Name="TaskID" ColumnName="TaskID" />

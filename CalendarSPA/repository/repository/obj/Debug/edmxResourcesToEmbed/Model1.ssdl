@@ -9,6 +9,7 @@
     <Property Name="TaskName" Type="varchar" MaxLength="150" />
     <Property Name="TaskDescription" Type="varchar(max)" />
     <Property Name="Done" Type="bit" />
+    <Property Name="TaskDate" Type="varchar" MaxLength="50" />
   </EntityType>
   <EntityType Name="TaskCategory">
     <Key>

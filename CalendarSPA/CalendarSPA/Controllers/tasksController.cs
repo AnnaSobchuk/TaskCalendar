@@ -55,7 +55,15 @@ namespace CalendarSPA.Controllers
         public Task Put(int id)
         {
             Task tmp = uof.tasks.getID(id);
+            if (tmp.Done == false)
+            {
             tmp.Done = true;
+            }
+            else
+            {
+                tmp.Done = false;
+            }
+          
             uof.tasks.updateTask(tmp);
             uof.Commit();
             return tmp;
