@@ -93,3 +93,14 @@
     float: left;
     margin-right: 5px;
 }
+ .right{
+    float: left !important;
+     
+ }
+.left{
+    float:left !important;
+}
+.left,
+.right{
+    width:100px;
+}

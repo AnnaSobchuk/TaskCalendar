@@ -20,29 +20,37 @@
             <div id="education"></div>
 
         </div>
-        @*<div id="GITsync">
+        <div id="GITsync">
             <h5 class="title">My GIT issues</h5>
-        </div>*@
+        </div>
     </div>
       
         <div id="taskForm">
             <h5 class="title">Plan new task</h5>
-            
-            <p><label for="tID">Task Name</label> <input id="tName" type="text" /></p>
-            <p><label for="tID">ID</label>  <input id="tID" type="text" /></p>
-            <p>Date: <input type="text" id="datepicker"></p>
-            <label for="categories">Select category</label>
-            <select id="categories">
-                <option>Select category</option>
-                <option>Programming</option>
-                <option>Homework</option>
-                <option>Education</option>
-            </select>
-            <p>
-                <label for="descr"> Description</label>
+            <div class="left">
+                <p>Task Name</p>
+                <p>ID</p>
+
                
-                <textarea rows="5" cols="35" id="descr"></textarea>
-            </p> 
+                <p>Date: </p>
+                <p>Select category</p>
+                <p> Description</p>
+            </div>
+            <div class="right">
+                <p> <input id="tName" type="text" /></p>
+                <p> <input id="tID" type="text" /></p>
+                <p> <input type="text" id="datepicker"></p>
+
+                <p>
+                    <select id="categories">
+                        <option>Select category</option>
+                        <option>Programming</option>
+                        <option>Homework</option>
+                        <option>Education</option>
+                    </select>
+                </p>
+                <p> <textarea rows="5" cols="25" id="descr"></textarea> </p>
+            </div>
                 <button id="addB" class="btn btn-primary btn-block btn-lg" type="button">Add</button>
             
         </div>
