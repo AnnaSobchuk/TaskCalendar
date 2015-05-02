@@ -23,9 +23,9 @@ namespace CalendarSPA.Controllers
            uof = AppKernel.Get<UnitOfWork>();
         }
         // GET api/tasks
-        public Task[] Get()
+        public Tasks[] Get()
         {
-            List<Task> names = new List<Task>();
+            List<Tasks> names = new List<Tasks>();
             foreach (var i in uof.tasks.getTasks())
                 names.Add(i);
             return names.ToArray();
@@ -34,13 +34,13 @@ namespace CalendarSPA.Controllers
         }
 
         // GET api/tasks/5
-        public Task Get(int id)
+        public Tasks Get(int id)
         {
             return uof.tasks.getID(id);
         }
 
         // POST api/tasks
-        public Task Post(Task item)
+        public Tasks Post(Tasks item)
         {
             if (item == null)
             {
@@ -52,9 +52,9 @@ namespace CalendarSPA.Controllers
         }
 
         // PUT api/tasks/5
-        public Task Put(int id)
+        public Tasks Put(int id)
         {
-            Task tmp = uof.tasks.getID(id);
+            Tasks tmp = uof.tasks.getID(id);
             if (tmp.Done == false)
             {
             tmp.Done = true;

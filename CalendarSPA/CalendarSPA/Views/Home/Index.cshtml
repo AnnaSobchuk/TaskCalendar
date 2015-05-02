@@ -3,79 +3,45 @@
     
 }
 
-@*<div id="page-content">*@
-<div id="plannedContainer" class="partShow">
-    <div class="rightSide">
-        <div id="tabs">
-            <ul>
-
-                <li><a href="#accordion">Programming</a></li>
-                <li><a href="#homework">Homework</a></li>
-                <li><a href="#education">Education</a></li>
-
-            </ul>
-
-            <div id="accordion"></div>
-            <div id="homework"></div>
-            <div id="education"></div>
-
-        </div>
-        <div id="GITsync">
-            <h5 class="title">My GIT issues</h5>
+<div class="content">
+    <div class="header">
+        <div>
+            @*navbuttons*@
+            <button class="btn btn-group btn-info">1 day</button>
+            <button class="btn btn-group btn-info">3 days</button>
+            <button class="btn btn-group btn-info">week</button>
         </div>
     </div>
-      
-        <div id="taskForm">
-            <h5 class="title">Plan new task</h5>
-            <div class="left">
-                <p>Task Name</p>
-                <p>ID</p>
-
-               
-                <p>Date: </p>
-                <p>Select category</p>
-                <p> Description</p>
-            </div>
-            <div class="right">
-                <p> <input id="tName" type="text" /></p>
-                <p> <input id="tID" type="text" /></p>
-                <p> <input type="text" id="datepicker"></p>
-
-                <p>
-                    <select id="categories">
-                        <option>Select category</option>
-                        <option>Programming</option>
-                        <option>Homework</option>
-                        <option>Education</option>
-                    </select>
-                </p>
-                <p> <textarea rows="5" cols="25" id="descr"></textarea> </p>
-            </div>
-                <button id="addB" class="btn btn-primary btn-block btn-lg" type="button">Add</button>
-            
-        </div>
-    <div id="datePicker"> </div>
-    </div>
-   
- <div id="solvedContainer" class="partHide" >
-    <div id="solve">
-        <ul>
-            <li><a href="#programmingDone">Programming</a></li>
-            <li><a href="#homeworkDone">Homework</a></li>
-            <li><a href="#educationDone">Education</a></li>
-        </ul>
-
-        <div id="programmingDone"></div>
-        <div id="homeworkDone"></div>
-        <div id="educationDone"></div>
-
+    <div id="taskcontainer" >
+    
 
     </div>
-
 </div>
 
+<div id="dialog-form" title="Add new task">
+    <p class="validateTips">All form fields are required.</p>
 
+    <form>
+        <fieldset>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" value="" class="text ui-widget-content ui-corner-all">
+            <label for="category">Category</label>
+            <select id="category">
+                <option>select Category</option>
+                @foreach (var cat in ViewBag.CategoryList)
+                {
+                    <option>@cat.CategoryName</option>
+                }
+            </select>
+            <label for="description">Description</label>
+            <textarea id="description" rows="5" cols="25"></textarea>
+            
 
+            <!-- Allow form submission with keyboard without duplicating the dialog button -->
+            <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+        </fieldset>
+    </form>
+</div>
 
 
 

@@ -10,17 +10,16 @@
     @Scripts.Render("~/bundles/bootstrap")
     @Styles.Render("~/Content/new")
     @Scripts.Render("~/bundles/new")
-
+    @Scripts.Render("~/bundles/jquery.mobile-1.4.5")
+    @Styles.Render("~/Content/jquery-mobile")
 
 </head>
 
 
 <body id="main">
     <div class="page-header">
-        <h1>My taskboard</h1>
-        @*<div class="menuItem" >@Html.ActionLink("Old view", "OldView","Home")</div>*@
-        <div class="menuItem" id="planned">Planned</div>
-        <div class="menuItem" id="solved">Solved</div>
+       <h3>To do list</h3>       
+
     </div>
     @RenderBody()
 

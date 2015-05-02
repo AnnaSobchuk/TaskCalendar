@@ -28,11 +28,10 @@ namespace repository
                 //string name = Console.ReadLine();
                 //Console.WriteLine("inpput catID");
                 //string ctid = Console.ReadLine();
-                Task tsk = new Task()
+                Tasks tsk = new Tasks()
                 {
                     TaskName = "task2",
-                   TaskID = 3,
-                   CategoryID = 1,
+                    CategoryID = 1,
 
 
                 };

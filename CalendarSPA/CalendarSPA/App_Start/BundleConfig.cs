@@ -8,25 +8,24 @@ namespace CalendarSPA
         // For more information on Bundling, visit http://go.microsoft.com/fwlink/?LinkId=254725
         public static void RegisterBundles(BundleCollection bundles)
         {
-
-
-
-
-            bundles.Add(new ScriptBundle("~/bundles/main").Include(
-                "~/Scripts/app/scripts.js",
-                "~/Scripts/app/newjavascript.js"
-               
-
-               ));
+                    
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                 "~/Scripts/bootstrap.js",
                 "~/Scripts/bootstrap.min.js",
                  "~/Scripts/app/jquery-2.1.1.js"
                   
                 ));
-
+            bundles.Add(new ScriptBundle("~/bundles/jquery.mobile-1.4.5").Include(
+                "~/Scripts/jquery.mobile-1.4.5/jquery.mobile-{version}.js"
+                ));
+            bundles.Add(new StyleBundle("~/Content/jquery-mobile").Include(
+                 "~/Scripts/jquery.mobile-1.4.5/jquery.mobile-{version}.css"
+                
+                ));
             bundles.Add(new ScriptBundle("~/bundles/new").Include(
-                 "~/Scripts/newLook/toDo.js",
+                 //"~/Scripts/newLook/toDo.js",
+                 "~/Scripts/toDoHelpers.js",
+                 "~/Scripts/tryN3.js",
                  "~/Scripts/jQueryUI1.11.2custom/jquery-ui-{version}.js"
                 ));
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
@@ -38,8 +37,8 @@ namespace CalendarSPA
                 "~/Content/style.css"
                ));
             bundles.Add(new StyleBundle("~/Content/new").Include(
-                  "~/Content/newDesign.css", 
-                  //"~/Content/lavish-bootstrap.css",
+                  //"~/Content/newDesign.css", 
+                  "~/Content/hope-last.css",
                   "~/Content/themes/jquery.ui.all.css"
                
              

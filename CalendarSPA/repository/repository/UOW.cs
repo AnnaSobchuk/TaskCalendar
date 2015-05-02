@@ -8,19 +8,19 @@ namespace repository
 {
     public interface IUnitOfWork : IDisposable
     {
-        IRepository<Task> tasks { get; }
+        IRepository<Tasks> tasks { get; }
         void Commit();
     }
     public class UnitOfWork : IUnitOfWork 
     {
-        Entities context;
-        Repository<Task> tasksRepository;
-        Repository<TaskCategory> categoriesRepository;
+       TodoEntities context;
+        Repository<Tasks> tasksRepository;
+        Repository<TaskCategories> categoriesRepository;
         public UnitOfWork()
         {
-            context = new Entities();
+            context = new TodoEntities();
         }
-        public UnitOfWork(Entities context)
+        public UnitOfWork(TodoEntities context)
         {
             this.context = context;
         }
@@ -28,25 +28,25 @@ namespace repository
         {
             this.context.SaveChanges();
         }
-        public IRepository<Task> tasks
+        public IRepository<Tasks> tasks
         {
             get
             {
                 if (this.tasksRepository == null)
                 {
-                    this.tasksRepository = new Repository<Task>(this.context);
+                    this.tasksRepository = new Repository<Tasks>(this.context);
                 }
                 return this.tasksRepository;
 
             }
         }
-        public IRepository<TaskCategory> categories
+        public IRepository<TaskCategories> categories
         {
             get
             {
                 if (this.categoriesRepository == null)
                 {
-                    this.categoriesRepository = new Repository<TaskCategory>(this.context);
+                    this.categoriesRepository = new Repository<TaskCategories>(this.context);
                 }
                 return this.categoriesRepository;
 

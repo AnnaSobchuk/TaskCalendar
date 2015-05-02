@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TodoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TaskCategories">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryName" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Tasks">
+    <Key>
+      <PropertyRef Name="TaskID" />
+    </Key>
+    <Property Name="TaskID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryID" Type="int" Nullable="false" />
+    <Property Name="TaskName" Type="varchar" MaxLength="150" />
+    <Property Name="TaskDescription" Type="varchar(max)" />
+    <Property Name="Done" Type="bit" />
+    <Property Name="TaskDate" Type="varchar" MaxLength="50" />
+    <Property Name="CellPos" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK__Task__CategoryID__145C0A3F">
+    <End Role="TaskCategories" Type="Self.TaskCategories" Multiplicity="1" />
+    <End Role="Tasks" Type="Self.Tasks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaskCategories">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="Tasks">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TodoModelStoreContainer">
+    <EntitySet Name="TaskCategories" EntityType="Self.TaskCategories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tasks" EntityType="Self.Tasks" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Task__CategoryID__145C0A3F" Association="Self.FK__Task__CategoryID__145C0A3F">
+      <End Role="TaskCategories" EntitySet="TaskCategories" />
+      <End Role="Tasks" EntitySet="Tasks" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

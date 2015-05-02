@@ -41,8 +41,7 @@
             url: 'http://localhost:52550/api/tasks',
             data: JSON.stringify({
                 TaskName: $('#tName').val(),
-                TaskID: $('#tID').val(),
-                CategoryID: $('#categories')[0].selectedIndex,
+               CategoryID: $('#categories')[0].selectedIndex,
                 Done: 'false',
                 TaskDescription: $('#descr').val(),
                 TaskDate: $('#datepicker').val()

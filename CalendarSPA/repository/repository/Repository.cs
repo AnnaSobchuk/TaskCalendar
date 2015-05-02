@@ -18,9 +18,9 @@ namespace repository
 
     public class Repository<T> : IRepository <T> where T:class
     {
-        Entities cntxt;
+        TodoEntities cntxt;
         bool disposed = false;
-        public Repository(Entities cont)
+        public Repository(TodoEntities cont)
         {
             this.cntxt = cont;
             this.cntxt.Configuration.ProxyCreationEnabled = false;
