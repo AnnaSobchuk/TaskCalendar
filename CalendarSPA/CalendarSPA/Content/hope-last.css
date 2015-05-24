@@ -1,0 +1,70 @@
+﻿body {
+}
+
+.page-header {
+    height: 100px;
+    background-color: #1e98ce !important;
+    margin-top: -25px !important;
+    margin-bottom: 5px !important;
+    border-bottom: 2px #0c5bbb solid;
+}
+
+    .page-header h3 {
+        text-align: left;
+        padding-top: 30px;
+    }
+
+.header {
+    border: 1px solid #0c5bbb;
+    height: 70px;
+}
+
+    .header div {
+        width: 200px;
+        margin-top: 15px;
+        float: right;
+    }
+
+.dayBlock {
+    float: left;
+    background-color: #98dfff;
+    height: 500px;
+    width: 300px;
+    margin: 10px 5px 10px 10px;
+}
+
+    .dayBlock h4 {
+        border-bottom: 2px solid #055cc6;
+    }
+
+#taskcontainer {
+    border: 2px dashed #0094ff;
+    height: 700px;
+}
+
+.table td{
+width:149px !important;
+height:90px !important;
+padding: 0px 0px !important;
+}
+table td:hover{
+    background-color:#72d1fb;
+}
+
+
+.navbtns{
+    height:19px;
+    width:19px;
+    /*margin-left: 0.5px;*/
+    float:right;
+}
+.taskItem{
+    width: 148px;
+    height: 90px;
+    overflow:auto;
+}
+.taskItem >div{
+    border-bottom: 1px solid black;
+}
+
+

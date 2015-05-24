@@ -1,0 +1,446 @@
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.csprojResolveAssemblyReference.cache
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\CalendarSPA.dll.config
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\CalendarSPA.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\CalendarSPA.pdb
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\Antlr3.Runtime.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.AspNet.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.Core.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\EntityFramework.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\Microsoft.Data.Edm.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\Microsoft.Data.OData.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\Microsoft.Web.Infrastructure.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\Newtonsoft.Json.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Net.Http.Formatting.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Spatial.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.Helpers.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.Http.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.Http.OData.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.Http.Tracing.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.Http.WebHost.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.Mvc.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.Optimization.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.Razor.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Deployment.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Razor.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\WebGrease.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\WebMatrix.Data.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\WebMatrix.WebData.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\EntityFramework.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\Newtonsoft.Json.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Net.Http.Formatting.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.Helpers.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.Http.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.Http.WebHost.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.Mvc.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.Razor.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Deployment.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Razor.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\WebMatrix.Data.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.Http.Tracing.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\WebMatrix.WebData.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.AspNet.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.Core.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Web.Http.OData.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\Microsoft.Data.Edm.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\Microsoft.Data.OData.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\System.Spatial.xml
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\de\Microsoft.Data.Edm.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\es\Microsoft.Data.Edm.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\it\Microsoft.Data.Edm.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\de\Microsoft.Data.OData.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\es\Microsoft.Data.OData.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\fr\Microsoft.Data.OData.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\it\Microsoft.Data.OData.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\ja\Microsoft.Data.OData.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\ko\Microsoft.Data.OData.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\ru\Microsoft.Data.OData.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\de\System.Spatial.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\es\System.Spatial.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\fr\System.Spatial.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\it\System.Spatial.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\ja\System.Spatial.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\ko\System.Spatial.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\ru\System.Spatial.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\zh-Hans\System.Spatial.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\bin\zh-Hant\System.Spatial.resources.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.dll
+D:\шось Оо\Fffffffuuuuuuu\прога\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.pdb
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\CalendarSPA.dll.config
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\CalendarSPA.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\CalendarSPA.pdb
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\Antlr3.Runtime.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.Core.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\EntityFramework.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\Microsoft.Data.Edm.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\Microsoft.Data.OData.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\Newtonsoft.Json.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Net.Http.Formatting.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Spatial.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.Helpers.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.Http.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.Http.OData.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.Http.Tracing.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.Http.WebHost.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.Mvc.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.Optimization.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.Razor.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Deployment.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Razor.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\WebGrease.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\WebMatrix.Data.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\WebMatrix.WebData.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\EntityFramework.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\Newtonsoft.Json.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Net.Http.Formatting.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.Helpers.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.Http.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.Http.WebHost.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.Mvc.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.Razor.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Deployment.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Razor.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\WebMatrix.Data.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.Http.Tracing.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\WebMatrix.WebData.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.Core.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Web.Http.OData.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\Microsoft.Data.Edm.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\Microsoft.Data.OData.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\System.Spatial.xml
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\de\System.Spatial.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\es\System.Spatial.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\fr\System.Spatial.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\it\System.Spatial.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\ja\System.Spatial.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\ko\System.Spatial.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\ru\System.Spatial.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.csprojResolveAssemblyReference.cache
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.dll
+C:\Users\asobctc\Desktop\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.pdb
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\CalendarSPA.dll.config
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\CalendarSPA.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\CalendarSPA.pdb
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Antlr3.Runtime.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.Core.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\EntityFramework.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Microsoft.Data.Edm.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Microsoft.Data.OData.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Newtonsoft.Json.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Net.Http.Formatting.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Spatial.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Helpers.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Http.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Http.OData.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Http.Tracing.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Http.WebHost.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Mvc.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Optimization.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Razor.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Razor.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\WebGrease.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\WebMatrix.Data.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\WebMatrix.WebData.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\EntityFramework.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Newtonsoft.Json.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Net.Http.Formatting.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Helpers.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Http.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Http.WebHost.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Mvc.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Razor.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Razor.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\WebMatrix.Data.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Http.Tracing.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\WebMatrix.WebData.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.Core.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Http.OData.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Microsoft.Data.Edm.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Microsoft.Data.OData.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Spatial.xml
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\de\System.Spatial.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\es\System.Spatial.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\fr\System.Spatial.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\it\System.Spatial.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\ja\System.Spatial.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\ko\System.Spatial.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\ru\System.Spatial.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.csprojResolveAssemblyReference.cache
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.pdb
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\CalendarSPA.dll.config
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\CalendarSPA.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\CalendarSPA.pdb
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Antlr3.Runtime.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.Core.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\EntityFramework.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Microsoft.Data.Edm.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Microsoft.Data.OData.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Newtonsoft.Json.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Net.Http.Formatting.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Spatial.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Helpers.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Http.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Http.OData.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Http.Tracing.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Http.WebHost.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Mvc.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Optimization.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Razor.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Deployment.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Razor.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\WebGrease.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\WebMatrix.Data.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\WebMatrix.WebData.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\EntityFramework.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Newtonsoft.Json.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Net.Http.Formatting.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Helpers.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Http.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Http.WebHost.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Mvc.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Razor.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Deployment.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Razor.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\WebMatrix.Data.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Http.Tracing.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\WebMatrix.WebData.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.Core.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Web.Http.OData.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Microsoft.Data.Edm.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Microsoft.Data.OData.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\System.Spatial.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\de\System.Spatial.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\es\System.Spatial.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\fr\System.Spatial.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\it\System.Spatial.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\ja\System.Spatial.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\ko\System.Spatial.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\ru\System.Spatial.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.csprojResolveAssemblyReference.cache
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.pdb
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\repository.exe
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\repository.pdb
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\repository.exe
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\repository.pdb
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Ninject.dll
+C:\Users\ivell\Documents\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Ninject.xml
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Ninject.dll
+C:\Users\asobctc\Desktop\GitHub\TaskCalendar\CalendarSPA\CalendarSPA\bin\Ninject.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.csprojResolveAssemblyReference.cache
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\obj\Debug\CalendarSPA.pdb
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\CalendarSPA.dll.config
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\CalendarSPA.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\CalendarSPA.pdb
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\Antlr3.Runtime.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.AspNet.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.Core.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\EntityFramework.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\Microsoft.Data.Edm.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\Microsoft.Data.OData.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\Microsoft.Web.Infrastructure.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\Microsoft.Web.WebPages.OAuth.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\Newtonsoft.Json.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\Ninject.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\repository.exe
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Spatial.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Web.Helpers.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Web.Http.OData.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Web.Http.Tracing.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Web.Mvc.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Web.Optimization.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Web.Razor.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Deployment.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Razor.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\WebGrease.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\WebMatrix.Data.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\WebMatrix.WebData.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\repository.pdb
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\Ninject.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\EntityFramework.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\Newtonsoft.Json.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Web.Helpers.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Web.Mvc.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Web.Razor.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Deployment.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Web.WebPages.Razor.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\WebMatrix.Data.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\Microsoft.Web.WebPages.OAuth.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Web.Http.Tracing.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\WebMatrix.WebData.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.AspNet.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.Core.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OAuth.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Web.Http.OData.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\Microsoft.Data.Edm.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\Microsoft.Data.OData.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\System.Spatial.xml
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\de\Microsoft.Data.Edm.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\es\Microsoft.Data.Edm.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\fr\Microsoft.Data.Edm.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\it\Microsoft.Data.Edm.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\ja\Microsoft.Data.Edm.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\ko\Microsoft.Data.Edm.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\ru\Microsoft.Data.Edm.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\de\Microsoft.Data.OData.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\es\Microsoft.Data.OData.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\fr\Microsoft.Data.OData.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\it\Microsoft.Data.OData.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\ja\Microsoft.Data.OData.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\ko\Microsoft.Data.OData.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\ru\Microsoft.Data.OData.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\de\System.Spatial.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\es\System.Spatial.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\fr\System.Spatial.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\it\System.Spatial.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\ja\System.Spatial.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\ko\System.Spatial.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\ru\System.Spatial.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\zh-Hans\System.Spatial.resources.dll
+c:\Users\Ivell\Documents\Bitbucket\ToDo\CalendarSPA\CalendarSPA\bin\zh-Hant\System.Spatial.resources.dll

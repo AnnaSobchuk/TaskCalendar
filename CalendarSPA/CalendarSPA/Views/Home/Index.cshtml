@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "My Todo List";
+    
+}
+
+<div class="content">
+    <div class="header">
+        <div>
+            @*navbuttons*@
+            <button class="btn btn-group btn-info">1 day</button>
+            <button class="btn btn-group btn-info">3 days</button>
+            <button class="btn btn-group btn-info">week</button>
+        </div>
+    </div>
+    <div id="taskcontainer" >
+    
+
+    </div>
+</div>
+
+<div id="dialog-form" title="Add new task">
+    <p class="validateTips">All form fields are required.</p>
+
+    <form>
+        <fieldset>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" value="" class="text ui-widget-content ui-corner-all">
+            <label for="category">Category</label>
+            <select id="category">
+                <option>select Category</option>
+                @foreach (var cat in ViewBag.CategoryList)
+                {
+                    <option>@cat.CategoryName</option>
+                }
+            </select>
+            <label for="description">Description</label>
+            <textarea id="description" rows="5" cols="25"></textarea>
+            
+
+            <!-- Allow form submission with keyboard without duplicating the dialog button -->
+            <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+        </fieldset>
+    </form>
+</div>
+
+
+
+
+
